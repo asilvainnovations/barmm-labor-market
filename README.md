@@ -4,11 +4,7 @@ A mobile-first Progressive Web App for exploring the SIPP-aligned BARMM Labour M
 
 ## MTIT identity and circular logo
 
-The application navigation now displays the official Ministry of Trade, Investments and Tourism (MTIT) logo in a circular frame. The circular SVG PWA icon also references the official asset supplied in the project repository:
-
-`assets/MTIT-logo.webp` in `https://github.com/asilvainnovations/barmm-labor-market`
-
-The 192px and 512px PNG fallbacks use a circular MTIT monogram treatment. The app header and SVG icon load the official WebP from the repository's raw asset URL; an internet connection is therefore required to retrieve the logo on a fresh install. The remaining application shell and workbook data are cached for offline use.
+The application navigation, SVG icon, 192px PNG icon and 512px PNG icon all use the exact official MTIT seal image uploaded by the user. The source file is bundled locally at `assets/MTIT-logo.webp`; no external logo URL or substitute monogram is used. The logo is cached with the application shell for offline availability.
 
 ## Netlify deployment
 

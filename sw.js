@@ -1,9 +1,10 @@
-const CACHE = "barmm-labour-readiness-mtit-v2";
+const CACHE = "barmm-labour-readiness-mtit-official-v3";
 const CORE = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./assets/workbook-data.json",
+  "./assets/MTIT-logo.webp",
   "./assets/mtit-icon.svg",
   "./assets/mtit-icon-192.png",
   "./assets/mtit-icon-512.png"
