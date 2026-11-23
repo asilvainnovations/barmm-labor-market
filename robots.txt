@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://labor-market.mtit-barmm.com/sitemap.xml
