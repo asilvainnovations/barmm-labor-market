@@ -31,7 +31,11 @@ Open `http://localhost:8080`. Service workers and installation features require 
 
 ## Included files
 
-- `index.html` — dashboard and application interface
+- `index.html` — dashboard and application interface (hash routes such as `#labour/labour-rates` deep-link to a section and card)
+- `public/contact.html` — contact page with a Netlify Forms inquiry form (`labour-market-contact`)
+- `public/terms-of-service.html`, `public/privacy-policy.html`, `public/cookie-policy.html` — policies
+- `assets/consent.js` — cookie consent pop-up (shown after 2 minutes of active use) and settings; Google Analytics loads only on opt-in
+- `assets/public-pages.css`, `assets/public-pages.js` — shared shell for the public pages
 - `assets/workbook-data.json` — structured snapshot of the 13 workbook sheets
 - `assets/mtit-icon.svg` — circular SVG icon using the official MTIT logo
 - `assets/mtit-icon-192.png` and `assets/mtit-icon-512.png` — circular install icon fallbacks

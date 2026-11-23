@@ -1,4 +1,4 @@
-const CACHE = "barmm-labour-readiness-mtit-official-v3";
+const CACHE = "barmm-labour-readiness-mtit-official-v4";
 const CORE = [
   "./",
   "./index.html",
@@ -7,7 +7,10 @@ const CORE = [
   "./assets/MTIT-logo.webp",
   "./assets/mtit-icon.svg",
   "./assets/mtit-icon-192.png",
-  "./assets/mtit-icon-512.png"
+  "./assets/mtit-icon-512.png",
+  "./assets/consent.js",
+  "./assets/public-pages.css",
+  "./assets/public-pages.js"
 ];
 
 self.addEventListener("install", event => {
@@ -38,6 +41,6 @@ self.addEventListener("fetch", event => {
         caches.open(CACHE).then(cache => cache.put(request, copy));
       }
       return response;
-    }).catch(() => caches.match("./index.html")))
+    }).catch(() => request.mode === "navigate" ? caches.match("./index.html") : undefined))
   );
 });
