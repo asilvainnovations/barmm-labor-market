@@ -1,0 +1,1160 @@
+{
+  "Dashboard": {
+    "columns": [
+      "BARMM LABOUR MARKET & SIPP ALIGNMENT — DECISION DASHBOARD",
+      "column_2",
+      "column_3",
+      "column_4",
+      "column_5",
+      "column_6",
+      "column_7",
+      "column_8",
+      "column_9",
+      "column_10",
+      "column_11",
+      "column_12",
+      "column_13",
+      "Sector",
+      "2024 GRDP share",
+      "2025 Employment share"
+    ],
+    "rows": [
+      {
+        "BARMM LABOUR MARKET & SIPP ALIGNMENT — DECISION DASHBOARD": "Phase II policy analysis | 2025 labour market baseline | 2026 SIPP investment-priority framework",
+        "column_2": null,
+        "column_3": null,
+        "column_4": null,
+        "column_5": null,
+        "column_6": null,
+        "column_7": null,
+        "column_8": null,
+        "column_9": null,
+        "column_10": null,
+        "column_11": null,
+        "column_12": null,
+        "column_13": null,
+        "Sector": "Agriculture, forestry and fishing",
+        "2024 GRDP share": 32.4,
+        "2025 Employment share": 47.6
+      },
+      {
+        "BARMM LABOUR MARKET & SIPP ALIGNMENT — DECISION DASHBOARD": null,
+        "column_2": null,
+        "column_3": null,
+        "column_4": null,
+        "column_5": null,
+        "column_6": null,
+        "column_7": null,
+        "column_8": null,
+        "column_9": null,
+        "column_10": null,
+        "column_11": null,
+        "column_12": null,
+        "column_13": null,
+        "Sector": "Services",
+        "2024 GRDP share": 42,
+        "2025 Employment share": 45.5
+      },
+      {
+        "BARMM LABOUR MARKET & SIPP ALIGNMENT — DECISION DASHBOARD": "EMPLOYMENT RATE",
+        "column_2": null,
+        "column_3": null,
+        "column_4": "UNEMPLOYMENT RATE",
+        "column_5": null,
+        "column_6": null,
+        "column_7": "UNDEREMPLOYMENT",
+        "column_8": null,
+        "column_9": null,
+        "column_10": "LABOUR-FORCE PARTICIPATION",
+        "column_11": null,
+        "column_12": null,
+        "column_13": null,
+        "Sector": "Industry",
+        "2024 GRDP share": 25.6,
+        "2025 Employment share": 6.9
+      },
+      {
+        "BARMM LABOUR MARKET & SIPP ALIGNMENT — DECISION DASHBOARD": "96.1%",
+        "column_2": null,
+        "column_3": null,
+        "column_4": "3.9%",
+        "column_5": null,
+        "column_6": null,
+        "column_7": "12.6%",
+        "column_8": null,
+        "column_9": null,
+        "column_10": "73.5%",
+        "column_11": null,
+        "column_12": null,
+        "column_13": null,
+        "Sector": null,
+        "2024 GRDP share": null,
+        "2025 Employment share": null
+      },
+      {
+        "BARMM LABOUR MARKET & SIPP ALIGNMENT — DECISION DASHBOARD": null,
+        "column_2": null,
+        "column_3": null,
+        "column_4": null,
+        "column_5": null,
+        "column_6": null,
+        "column_7": null,
+        "column_8": null,
+        "column_9": null,
+        "column_10": null,
+        "column_11": null,
+        "column_12": null,
+        "column_13": null,
+        "Sector": "SIPP Tier",
+        "2024 GRDP share": "Mapped activity groups",
+        "2025 Employment share": null
+      },
+      {
+        "BARMM LABOUR MARKET & SIPP ALIGNMENT — DECISION DASHBOARD": "EMPLOYED PERSONS",
+        "column_2": null,
+        "column_3": null,
+        "column_4": "INDUSTRY EMPLOYMENT",
+        "column_5": null,
+        "column_6": null,
+        "column_7": "KEY DECISION SIGNAL\nHigh employment coexists with rising underemployment. The SIPP provides the investment-priority lens, but project maturity and employer evidence must determine actual workforce demand. Prioritise value-chain productivity, industry-linked skills, local supplier capacity and decent work.",
+        "column_8": null,
+        "column_9": null,
+        "column_10": null,
+        "column_11": null,
+        "column_12": null,
+        "column_13": null,
+        "Sector": "Tier I",
+        "2024 GRDP share": 32,
+        "2025 Employment share": null
+      },
+      {
+        "BARMM LABOUR MARKET & SIPP ALIGNMENT — DECISION DASHBOARD": "2,283 '000",
+        "column_2": null,
+        "column_3": null,
+        "column_4": "6.9%",
+        "column_5": null,
+        "column_6": null,
+        "column_7": null,
+        "column_8": null,
+        "column_9": null,
+        "column_10": null,
+        "column_11": null,
+        "column_12": null,
+        "column_13": null,
+        "Sector": "Tier II",
+        "2024 GRDP share": 6,
+        "2025 Employment share": null
+      },
+      {
+        "BARMM LABOUR MARKET & SIPP ALIGNMENT — DECISION DASHBOARD": null,
+        "column_2": null,
+        "column_3": null,
+        "column_4": null,
+        "column_5": null,
+        "column_6": null,
+        "column_7": null,
+        "column_8": null,
+        "column_9": null,
+        "column_10": null,
+        "column_11": null,
+        "column_12": null,
+        "column_13": null,
+        "Sector": "Tier III",
+        "2024 GRDP share": 7,
+        "2025 Employment share": null
+      },
+      {
+        "BARMM LABOUR MARKET & SIPP ALIGNMENT — DECISION DASHBOARD": "Notes: LFS indicators are official PSA estimates. GRDP shares (2024) and employment shares (2025) have different reference years and denominators; comparison is descriptive, not a productivity ratio. SIPP activity counts reflect mapped activity groups, not project counts, investments or jobs.",
+        "column_2": null,
+        "column_3": null,
+        "column_4": null,
+        "column_5": null,
+        "column_6": null,
+        "column_7": null,
+        "column_8": null,
+        "column_9": null,
+        "column_10": null,
+        "column_11": null,
+        "column_12": null,
+        "column_13": null,
+        "Sector": null,
+        "2024 GRDP share": null,
+        "2025 Employment share": null
+      }
+    ]
+  },
+  "Read Me": {
+    "columns": [
+      "BARMM LABOUR MARKET – ANALYTICAL DATA WORKBOOK",
+      "column_2"
+    ],
+    "rows": [
+      {
+        "BARMM LABOUR MARKET – ANALYTICAL DATA WORKBOOK": "Purpose",
+        "column_2": "Supporting dataset and source register for the revised Phase II policy paper."
+      },
+      {
+        "BARMM LABOUR MARKET – ANALYTICAL DATA WORKBOOK": "Reference date",
+        "column_2": "22 November 2026"
+      },
+      {
+        "BARMM LABOUR MARKET – ANALYTICAL DATA WORKBOOK": "Use",
+        "column_2": "All figures are drawn from the cited official/statistical sources or MTIT–BOI project documents."
+      },
+      {
+        "BARMM LABOUR MARKET – ANALYTICAL DATA WORKBOOK": "Important",
+        "column_2": "Investment leads are not approved investment or confirmed employment demand. GRDP and employment shares refer to different years and are not a productivity ratio."
+      },
+      {
+        "BARMM LABOUR MARKET – ANALYTICAL DATA WORKBOOK": "Method",
+        "column_2": "Use the Data Dictionary sheet for definitions and the Source Register for citations and URLs."
+      },
+      {
+        "BARMM LABOUR MARKET – ANALYTICAL DATA WORKBOOK": "Confidentiality",
+        "column_2": "Do not add personal or confidential employer-level information without Client authorisation and appropriate safeguards."
+      },
+      {
+        "BARMM LABOUR MARKET – ANALYTICAL DATA WORKBOOK": "SIPP alignment",
+        "column_2": "The SIPP Workforce Map lists 45 mapped activity groups from the approved 2026 SIPP. Indicative occupations and competencies are analytical inferences, not confirmed BARMM vacancies or shortages."
+      }
+    ]
+  },
+  "LFS 2024-25": {
+    "columns": [
+      "Indicator",
+      "2024",
+      "2025",
+      "Unit",
+      "Source / note"
+    ],
+    "rows": [
+      {
+        "Indicator": "Labour-force participation rate",
+        "2024": 73.5,
+        "2025": 73.5,
+        "Unit": "%",
+        "Source / note": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Indicator": "Employment rate",
+        "2024": 97,
+        "2025": 96.1,
+        "Unit": "%",
+        "Source / note": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Indicator": "Unemployment rate",
+        "2024": 3,
+        "2025": 3.9,
+        "Unit": "%",
+        "Source / note": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Indicator": "Underemployment rate",
+        "2024": 11.7,
+        "2025": 12.6,
+        "Unit": "%",
+        "Source / note": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Indicator": "Employed persons",
+        "2024": 2240,
+        "2025": 2283,
+        "Unit": "'000 persons",
+        "Source / note": "PSA BARMM 2025 LFS release; rounded"
+      },
+      {
+        "Indicator": "Unemployed persons",
+        "2024": 69,
+        "2025": 93,
+        "Unit": "'000 persons",
+        "Source / note": "PSA BARMM 2025 LFS release; rounded"
+      },
+      {
+        "Indicator": "Underemployed persons",
+        "2024": 261,
+        "2025": 287,
+        "Unit": "'000 persons",
+        "Source / note": "PSA BARMM 2025 LFS release; rounded"
+      },
+      {
+        "Indicator": "Average weekly hours",
+        "2024": 37.2,
+        "2025": 37.2,
+        "Unit": "hours",
+        "Source / note": "PSA BARMM 2025 LFS release"
+      }
+    ]
+  },
+  "Employment Structure": {
+    "columns": [
+      "Sector / class of worker",
+      "2025 share (%)",
+      "Interpretation / source"
+    ],
+    "rows": [
+      {
+        "Sector / class of worker": "Agriculture, forestry and fishing",
+        "2025 share (%)": 47.6,
+        "Interpretation / source": "Share of employed persons; PSA BARMM 2025 LFS"
+      },
+      {
+        "Sector / class of worker": "Services",
+        "2025 share (%)": 45.5,
+        "Interpretation / source": "Share of employed persons; PSA BARMM 2025 LFS"
+      },
+      {
+        "Sector / class of worker": "Industry",
+        "2025 share (%)": 6.9,
+        "Interpretation / source": "Share of employed persons; PSA BARMM 2025 LFS"
+      },
+      {
+        "Sector / class of worker": "Self-employed without paid employees",
+        "2025 share (%)": 52.8,
+        "Interpretation / source": "Share of employed persons; PSA BARMM 2025 LFS"
+      },
+      {
+        "Sector / class of worker": "Unpaid family workers",
+        "2025 share (%)": 23.9,
+        "Interpretation / source": "Share of employed persons; PSA BARMM 2025 LFS"
+      },
+      {
+        "Sector / class of worker": "Wage and salary workers",
+        "2025 share (%)": 22.2,
+        "Interpretation / source": "Share of employed persons; PSA BARMM 2025 LFS"
+      },
+      {
+        "Sector / class of worker": "Private establishment wage workers",
+        "2025 share (%)": 14.3,
+        "Interpretation / source": "Share of all employed persons; PSA BARMM 2025 LFS"
+      }
+    ]
+  },
+  "GRDP 2024": {
+    "columns": [
+      "Indicator",
+      "Value",
+      "Unit",
+      "Source / note"
+    ],
+    "rows": [
+      {
+        "Indicator": "GRDP growth",
+        "Value": 2.7,
+        "Unit": "%",
+        "Source / note": "PSA BARMM Regional Accounts, 22 April 2025"
+      },
+      {
+        "Indicator": "Services share",
+        "Value": 42,
+        "Unit": "%",
+        "Source / note": "Share of GRDP, 2024"
+      },
+      {
+        "Indicator": "Agriculture, forestry and fishing share",
+        "Value": 32.4,
+        "Unit": "%",
+        "Source / note": "Share of GRDP, 2024"
+      },
+      {
+        "Indicator": "Industry share",
+        "Value": 25.6,
+        "Unit": "%",
+        "Source / note": "Share of GRDP, 2024"
+      },
+      {
+        "Indicator": "Construction growth",
+        "Value": 26,
+        "Unit": "%",
+        "Source / note": "2023–2024, constant 2018 prices"
+      },
+      {
+        "Indicator": "Professional and business services growth",
+        "Value": 12.5,
+        "Unit": "%",
+        "Source / note": "2023–2024, constant 2018 prices"
+      },
+      {
+        "Indicator": "Human health and social work growth",
+        "Value": 10.9,
+        "Unit": "%",
+        "Source / note": "2023–2024, constant 2018 prices"
+      },
+      {
+        "Indicator": "Mining and quarrying growth",
+        "Value": -8.7,
+        "Unit": "%",
+        "Source / note": "2023–2024, constant 2018 prices"
+      },
+      {
+        "Indicator": "AFF growth",
+        "Value": -4.2,
+        "Unit": "%",
+        "Source / note": "2023–2024, constant 2018 prices"
+      }
+    ]
+  },
+  "Employment Change": {
+    "columns": [
+      "Subsector",
+      "Change in employed persons ('000)",
+      "Direction",
+      "Source"
+    ],
+    "rows": [
+      {
+        "Subsector": "Accommodation and food services",
+        "Change in employed persons ('000)": 23,
+        "Direction": "Increase",
+        "Source": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Subsector": "Construction",
+        "Change in employed persons ('000)": 16,
+        "Direction": "Increase",
+        "Source": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Subsector": "Public administration and defence",
+        "Change in employed persons ('000)": 10,
+        "Direction": "Increase",
+        "Source": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Subsector": "Education",
+        "Change in employed persons ('000)": 9,
+        "Direction": "Increase",
+        "Source": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Subsector": "Other service activities",
+        "Change in employed persons ('000)": 8,
+        "Direction": "Increase",
+        "Source": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Subsector": "Agriculture and forestry",
+        "Change in employed persons ('000)": -42,
+        "Direction": "Decrease",
+        "Source": "PSA BARMM 2025 LFS release"
+      }
+    ]
+  },
+  "Provincial Indicators": {
+    "columns": [
+      "Province / city",
+      "LFPR 2025 (%)",
+      "Unemployment 2025 (%)",
+      "Underemployment 2025 (%)",
+      "Source"
+    ],
+    "rows": [
+      {
+        "Province / city": "Basilan",
+        "LFPR 2025 (%)": null,
+        "Unemployment 2025 (%)": 9.1,
+        "Underemployment 2025 (%)": 16.5,
+        "Source": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Province / city": "Lanao del Sur",
+        "LFPR 2025 (%)": null,
+        "Unemployment 2025 (%)": 8,
+        "Underemployment 2025 (%)": null,
+        "Source": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Province / city": "Maguindanao del Norte",
+        "LFPR 2025 (%)": 77,
+        "Unemployment 2025 (%)": 1.6,
+        "Underemployment 2025 (%)": null,
+        "Source": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Province / city": "Maguindanao del Sur",
+        "LFPR 2025 (%)": 78.1,
+        "Unemployment 2025 (%)": 2,
+        "Underemployment 2025 (%)": null,
+        "Source": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Province / city": "Sulu",
+        "LFPR 2025 (%)": 90.2,
+        "Unemployment 2025 (%)": 1.2,
+        "Underemployment 2025 (%)": 22.9,
+        "Source": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Province / city": "Tawi-Tawi",
+        "LFPR 2025 (%)": 50.9,
+        "Unemployment 2025 (%)": 6.7,
+        "Underemployment 2025 (%)": 2.3,
+        "Source": "PSA BARMM 2025 LFS release"
+      },
+      {
+        "Province / city": "Cotabato City",
+        "LFPR 2025 (%)": 74.9,
+        "Unemployment 2025 (%)": 2.2,
+        "Underemployment 2025 (%)": 12.9,
+        "Source": "PSA BARMM 2025 LFS release"
+      }
+    ]
+  },
+  "Investment Leads": {
+    "columns": [
+      "Sector",
+      "Share of leads 2021–2025 (%)",
+      "Source / note"
+    ],
+    "rows": [
+      {
+        "Sector": "Services",
+        "Share of leads 2021–2025 (%)": 33.8,
+        "Source / note": "MTIT–BOI Phase II activity proposal; leads, not approved investments"
+      },
+      {
+        "Sector": "Industry",
+        "Share of leads 2021–2025 (%)": 33.8,
+        "Source / note": "MTIT–BOI Phase II activity proposal; leads, not approved investments"
+      },
+      {
+        "Sector": "Agriculture, forestry and fishing",
+        "Share of leads 2021–2025 (%)": 33.4,
+        "Source / note": "MTIT–BOI Phase II activity proposal; leads, not approved investments"
+      }
+    ]
+  },
+  "TVET Outcomes": {
+    "columns": [
+      "Area",
+      "Employment rate (%)",
+      "Cohort / definition",
+      "Source"
+    ],
+    "rows": [
+      {
+        "Area": "BARMM",
+        "Employment rate (%)": 79.25,
+        "Cohort / definition": "2023 TVET graduate cohort; graduates in labour force",
+        "Source": "TESDA 2024 Study on the Employment of TVET Graduates, Table 34"
+      },
+      {
+        "Area": "Philippines",
+        "Employment rate (%)": 83.34,
+        "Cohort / definition": "2023 TVET graduate cohort; graduates in labour force",
+        "Source": "TESDA 2024 Study on the Employment of TVET Graduates, Table 34"
+      }
+    ]
+  },
+  "Source Register": {
+    "columns": [
+      "APA reference",
+      "Use in analysis",
+      "URL / file"
+    ],
+    "rows": [
+      {
+        "APA reference": "Philippine Statistics Authority. (2026, May 15). Number of unemployed in BARMM increased to 93 thousand Bangsamoros aged 15 years and over in 2025 (Ref. 26PR19-027).",
+        "Use in analysis": "2024–2025 LFS indicators, sectoral employment, class of worker, youth and provincial rates.",
+        "URL / file": "https://rssobarmm.psa.gov.ph/content/number-unemployed-barmm-increased-93-thousand-bangsamoros-aged-15-years-and-over-2025"
+      },
+      {
+        "APA reference": "Philippine Statistics Authority. (2025, April 22). BARMM’s economy expands by 2.7 percent in 2024 (Ref. 2025-033).",
+        "Use in analysis": "GRDP growth, sector shares and industry growth rates.",
+        "URL / file": "https://rssobarmm.psa.gov.ph/statistics/regional-accounts/node/1684057399"
+      },
+      {
+        "APA reference": "Technical Education and Skills Development Authority. (2025). 2024 Study on the Employment of TVET Graduates: Full Report.",
+        "Use in analysis": "BARMM and national TVET graduate employment rates, 2023 cohort.",
+        "URL / file": "https://www.tesda.gov.ph/Uploads/File/Researches/2024%20SETG%20Full%20Report%20v10172025.pdf"
+      },
+      {
+        "APA reference": "International Labour Organization. (2023). Promoting productive employment and skills development in BARMM.",
+        "Use in analysis": "Structural constraints, TVET access, gender, sector/value-chain recommendations.",
+        "URL / file": "https://www.ilo.org/sites/default/files/2024-07/barmm-labour-market-report-summary-2023-en.pdf"
+      },
+      {
+        "APA reference": "MTIT–BOI. (2025). Boosting BARMM’s investment climate through a skilled workforce.",
+        "Use in analysis": "Phase I exploratory findings and definitions.",
+        "URL / file": "Supplied project document: Boosting-BARMMs-Investment-Climate-Through-Skilled-workforce.pdf"
+      },
+      {
+        "APA reference": "MTIT–BOI. (2025). Preparation of position/policy paper: Activity proposal.",
+        "Use in analysis": "Phase II objectives, investment-lead distribution and sectors.",
+        "URL / file": "Supplied project document: Labor-Market-2025.docx"
+      },
+      {
+        "APA reference": "MTIT–BOI. (n.d.). Policy paper for Bangsamoro labour market: Phase II outline and workplan.",
+        "Use in analysis": "Phase II policy objectives, consultation approach and expected output.",
+        "URL / file": "Supplied project document: Labor-Market-Policy-Paper.docx"
+      },
+      {
+        "APA reference": "Office of the President of the Philippines. (2026). Memorandum Order No. 47, s. 2026: Approving the 2026 Strategic Investment Priority Plan.",
+        "Use in analysis": "2026 SIPP tiers, preferred investment activities and BARMM-specific priorities; pp. 3–13.",
+        "URL / file": "Supplied file: Newly-Approve-SIPP-MEMO-No.-47.pdf"
+      }
+    ]
+  },
+  "Data Dictionary": {
+    "columns": [
+      "Variable",
+      "Definition",
+      "Unit / denominator",
+      "Caution"
+    ],
+    "rows": [
+      {
+        "Variable": "LFPR",
+        "Definition": "Labour force as share of population aged 15 years and over.",
+        "Unit / denominator": "% of population 15+",
+        "Caution": "Do not compare without same reference period."
+      },
+      {
+        "Variable": "Employment rate",
+        "Definition": "Employed persons as share of labour force.",
+        "Unit / denominator": "% of labour force",
+        "Caution": "Not equivalent to share of working-age population."
+      },
+      {
+        "Variable": "Unemployment rate",
+        "Definition": "Unemployed persons as share of labour force.",
+        "Unit / denominator": "% of labour force",
+        "Caution": "Does not measure underemployment or job quality."
+      },
+      {
+        "Variable": "Underemployment rate",
+        "Definition": "Employed persons seeking additional hours or additional/better work.",
+        "Unit / denominator": "% of employed persons",
+        "Caution": "Includes visibly and invisibly underemployed."
+      },
+      {
+        "Variable": "Sector employment share",
+        "Definition": "Employed persons in sector as share of total employed persons.",
+        "Unit / denominator": "% of employed persons",
+        "Caution": "PSA LFS classification."
+      },
+      {
+        "Variable": "GRDP share",
+        "Definition": "Sector gross value added as share of total GRDP.",
+        "Unit / denominator": "% of GRDP",
+        "Caution": "Do not divide by employment share to claim productivity."
+      },
+      {
+        "Variable": "TVET graduate employment rate",
+        "Definition": "Employed TVET graduates as share of graduates in the labour force.",
+        "Unit / denominator": "% of graduates in labour force",
+        "Caution": "Excludes graduates outside labour force; cohort-specific."
+      },
+      {
+        "Variable": "Investment-lead share",
+        "Definition": "Sector leads as share of all leads reported in the MTIT–BOI activity proposal.",
+        "Unit / denominator": "% of investment leads",
+        "Caution": "Not approved investment, realised investment or jobs."
+      },
+      {
+        "Variable": "SIPP tier / activity mapping",
+        "Definition": "Classification of SIPP preferred activities and inferred workforce implications.",
+        "Unit / denominator": "Tier and activity group",
+        "Caution": "SIPP eligibility is not proof of a BARMM project, jobs, vacancies or occupational shortage. Validate with project and employer evidence."
+      }
+    ]
+  },
+  "SIPP Workforce Map": {
+    "columns": [
+      "SIPP Tier",
+      "SIPP Activity / Group",
+      "SIPP Category",
+      "BARMM Economic Relevance",
+      "Activity Scope (SIPP)",
+      "Indicative Occupations",
+      "Competencies / Training Implications",
+      "Evidence Status / Validation Need"
+    ],
+    "rows": [
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Agriculture, fishery and forestry production",
+        "SIPP Category": "Tier I / Modern basic needs",
+        "BARMM Economic Relevance": "Agriculture, fisheries and forestry",
+        "Activity Scope (SIPP)": "Farm production, fisheries, aquaculture, forestry, farm machinery, extension and resource management",
+        "Indicative Occupations": "Agricultural technicians; aquaculture and fisheries technicians; farm machinery operators; forestry technicians",
+        "Competencies / Training Implications": "TESDA agriculture/fisheries qualifications; extension; community and enterprise-based learning",
+        "Evidence Status / Validation Need": "Strategic priority; local project demand not established"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Processed agricultural, fishery and forestry products",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Agri-food and fisheries processing",
+        "Activity Scope (SIPP)": "Processing of products, by-products and wastes; post-harvest and value addition",
+        "Indicative Occupations": "Food processing operators; post-harvest technicians; quality assurance assistants; packaging operators",
+        "Competencies / Training Implications": "Food safety, HACCP-related competencies, processing, packaging, quality testing",
+        "Evidence Status / Validation Need": "Strategic priority; employer validation required"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Pharmaceuticals",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Healthcare and manufacturing",
+        "Activity Scope (SIPP)": "Manufacture of pharmaceutical products not adequately supplied domestically, subject to SIPP conditions",
+        "Indicative Occupations": "Pharmaceutical production technicians; laboratory assistants; quality control analysts; regulatory support staff",
+        "Competencies / Training Implications": "Laboratory practice, GMP, quality assurance and regulatory competencies",
+        "Evidence Status / Validation Need": "Strategic priority; investment feasibility and demand unverified"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Semiconductors and electronics",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Advanced manufacturing",
+        "Activity Scope (SIPP)": "Manufacture, assembly, packaging, testing and related electronic products and components",
+        "Indicative Occupations": "Electronics technicians; production operators; testing technicians; maintenance technicians",
+        "Competencies / Training Implications": "Electronics servicing, instrumentation, quality systems and industrial safety",
+        "Evidence Status / Validation Need": "Strategic priority; local ecosystem readiness to assess"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Machineries and equipment",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Industrial manufacturing",
+        "Activity Scope (SIPP)": "Manufacture of machinery and equipment",
+        "Indicative Occupations": "Mechanical technicians; machinists; CNC operators; maintenance technicians",
+        "Competencies / Training Implications": "Mechanical technology, machining, CAD/CAM, preventive maintenance",
+        "Evidence Status / Validation Need": "Strategic priority; employer demand unverified"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Shipbuilding",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Maritime and industrial manufacturing",
+        "Activity Scope (SIPP)": "Construction of ships and vessels, including parts and components",
+        "Indicative Occupations": "Welders; marine fabricators; marine electricians; naval and mechanical technicians",
+        "Competencies / Training Implications": "Welding/fabrication, marine electrical, occupational safety, quality inspection",
+        "Evidence Status / Validation Need": "Strategic priority; site/project pipeline required"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Iron and steel",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Metals and fabrication",
+        "Activity Scope (SIPP)": "Manufacture of iron and steel products, including reinforcing bars, angle bars and wire ropes",
+        "Indicative Occupations": "Metal fabricators; welders; furnace/process operators; materials testing technicians",
+        "Competencies / Training Implications": "Metal fabrication, welding, process control and materials testing",
+        "Evidence Status / Validation Need": "Strategic priority; project and supply-chain validation required"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "LNG storage and regasification facilities",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Energy infrastructure",
+        "Activity Scope (SIPP)": "Establishment and operation of natural gas storage and regasification facilities",
+        "Indicative Occupations": "Plant operators; mechanical and electrical technicians; process safety staff",
+        "Competencies / Training Implications": "Process operations, instrumentation, mechanical maintenance and safety",
+        "Evidence Status / Validation Need": "Project-specific demand and regulatory readiness required"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Oil and gas pipelines",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Energy and industrial logistics",
+        "Activity Scope (SIPP)": "Pipeline facilities for transport of petroleum products, natural gas and similar products",
+        "Indicative Occupations": "Pipeline technicians; welders; instrumentation technicians; integrity inspectors",
+        "Competencies / Training Implications": "Pipeline construction, welding, inspection, instrumentation and safety",
+        "Evidence Status / Validation Need": "Project-specific demand to validate"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Training and learning facilities, including branch campuses",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Education and skills infrastructure",
+        "Activity Scope (SIPP)": "Establishment and operation of training/learning facilities and qualifying branch campuses",
+        "Indicative Occupations": "TVET trainers; faculty; curriculum developers; laboratory and training technicians",
+        "Competencies / Training Implications": "Trainer qualification, instructional design, technical specialisation and quality assurance",
+        "Evidence Status / Validation Need": "SIPP activity; capacity and enrolment demand to validate"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Testing laboratories and facilities",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Quality infrastructure",
+        "Activity Scope (SIPP)": "Laboratories/facilities testing quality and standards of industrial and commercial products",
+        "Indicative Occupations": "Laboratory analysts; metrology technicians; quality auditors; lab managers",
+        "Competencies / Training Implications": "Testing methods, metrology, calibration, quality systems and accreditation",
+        "Evidence Status / Validation Need": "Critical enabling capability; laboratory demand and accreditation status to assess"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Domestic industrial zones",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Industrial infrastructure",
+        "Activity Scope (SIPP)": "Development and operation of domestic industrial zones",
+        "Indicative Occupations": "Industrial estate managers; utilities technicians; facilities managers; environmental officers",
+        "Competencies / Training Implications": "Industrial estate operations, utilities, environmental compliance and safety",
+        "Evidence Status / Validation Need": "Project/location-specific workforce plan required"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Fulfilment centres",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Logistics and e-commerce",
+        "Activity Scope (SIPP)": "Integrated logistics including warehousing, storage, digital inventory, packaging, kitting, packing and last-mile shipping",
+        "Indicative Occupations": "Warehouse supervisors; inventory controllers; logistics analysts; equipment operators",
+        "Competencies / Training Implications": "Warehouse management systems, inventory, packaging and logistics operations",
+        "Evidence Status / Validation Need": "Project and e-commerce demand to validate"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Education city",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Education infrastructure",
+        "Activity Scope (SIPP)": "Development/establishment and operation of education facilities with integrated services and auxiliary support",
+        "Indicative Occupations": "Teachers; education administrators; ICT support; facilities and student services staff",
+        "Competencies / Training Implications": "Education delivery, digital learning, facilities and student support",
+        "Evidence Status / Validation Need": "Institutional investment and enrolment demand required"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Cement",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Construction materials",
+        "Activity Scope (SIPP)": "Cement projects qualifying under SIPP conditions",
+        "Indicative Occupations": "Process operators; mechanical/electrical maintenance technicians; laboratory testers",
+        "Competencies / Training Implications": "Process control, industrial maintenance, materials testing and safety",
+        "Evidence Status / Validation Need": "Project-specific demand; environmental safeguards important"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Value-adding manufacturing activities",
+        "SIPP Category": "Tier I / Manufacturing",
+        "BARMM Economic Relevance": "Manufacturing and value addition",
+        "Activity Scope (SIPP)": "Manufacture of semi-finished/intermediate goods or finished products meeting value-adding criteria",
+        "Indicative Occupations": "Production technicians; machine operators; quality control staff; production planners",
+        "Competencies / Training Implications": "Production operations, process improvement, quality and maintenance",
+        "Evidence Status / Validation Need": "Must meet SIPP value-adding criteria; assess project by project"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Energy source exploration and development",
+        "SIPP Category": "Tier I / Energy",
+        "BARMM Economic Relevance": "Energy",
+        "Activity Scope (SIPP)": "Exploration and/or development of energy sources",
+        "Indicative Occupations": "Energy technicians; geoscience field assistants; environmental monitoring technicians",
+        "Competencies / Training Implications": "Energy systems, field safety, environmental safeguards",
+        "Evidence Status / Validation Need": "Strategic priority; technology/project specific"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Power generation",
+        "SIPP Category": "Tier I / Energy",
+        "BARMM Economic Relevance": "Energy",
+        "Activity Scope (SIPP)": "Power generation projects using conventional fuels, subject to SIPP conditions",
+        "Indicative Occupations": "Electrical technicians; plant operators; instrumentation technicians; safety personnel",
+        "Competencies / Training Implications": "Power plant operations, electrical systems, instrumentation and safety",
+        "Evidence Status / Validation Need": "Strategic priority; project pipeline required"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Energy storage systems",
+        "SIPP Category": "Tier I / Energy",
+        "BARMM Economic Relevance": "Energy transition",
+        "Activity Scope (SIPP)": "Establishment and operation of energy storage systems",
+        "Indicative Occupations": "Battery technicians; electrical engineers; control-system technicians",
+        "Competencies / Training Implications": "Battery systems, electrical safety, power electronics and maintenance",
+        "Evidence Status / Validation Need": "Strategic priority; local skills supply to assess"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Halal, kosher and organic-related activities",
+        "SIPP Category": "Tier I / Agriculture and manufacturing",
+        "BARMM Economic Relevance": "Halal and organic value chains",
+        "Activity Scope (SIPP)": "Production and manufacture of qualifying halal, kosher or organic products and related facilities",
+        "Indicative Occupations": "Food technologists; halal assurance personnel; traceability and quality staff; production supervisors",
+        "Competencies / Training Implications": "Halal standards, food safety, certification systems, traceability and quality management",
+        "Evidence Status / Validation Need": "BARMM relevance; employer and certification ecosystem validation"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Creative industries and knowledge-based industries",
+        "SIPP Category": "Tier I / Services",
+        "BARMM Economic Relevance": "Digital and creative services",
+        "Activity Scope (SIPP)": "IT/BPM, animation, game development, software, SaaS, design and related services",
+        "Indicative Occupations": "Software developers; animation and multimedia artists; UX/UI designers; digital operations staff",
+        "Competencies / Training Implications": "Digital skills, software development, creative production, communication and project delivery",
+        "Evidence Status / Validation Need": "Strategic priority; demand depends on firm/project pipeline"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Ship repair",
+        "SIPP Category": "Tier I / Services",
+        "BARMM Economic Relevance": "Maritime services",
+        "Activity Scope (SIPP)": "Repair of all types of vessels",
+        "Indicative Occupations": "Marine mechanics; welders; marine electricians; inspection technicians",
+        "Competencies / Training Implications": "Marine repair, fabrication, electrical maintenance and safety",
+        "Evidence Status / Validation Need": "Project/site demand to validate"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Aircraft maintenance, repair and overhaul",
+        "SIPP Category": "Tier I / Services",
+        "BARMM Economic Relevance": "Aviation services",
+        "Activity Scope (SIPP)": "MRO of aircraft and parts/components",
+        "Indicative Occupations": "Aircraft maintenance technicians; avionics technicians; quality and safety staff",
+        "Competencies / Training Implications": "Licensed aviation maintenance pathways and specialised certification",
+        "Evidence Status / Validation Need": "Long-term capability; local facility/project evidence needed"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "State-of-the-art engineering, procurement and construction",
+        "SIPP Category": "Tier I / Services",
+        "BARMM Economic Relevance": "Infrastructure and industrial services",
+        "Activity Scope (SIPP)": "Engineering, design, procurement and construction services for infrastructure and industrial plants",
+        "Indicative Occupations": "Civil/electrical/mechanical engineers; quantity surveyors; project controls staff; construction supervisors",
+        "Competencies / Training Implications": "Engineering education, BIM/CAD, procurement, project management and safety",
+        "Evidence Status / Validation Need": "Project-specific demand; validate with implementing agencies"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Healthcare and disaster risk reduction management services",
+        "SIPP Category": "Tier I / Services",
+        "BARMM Economic Relevance": "Healthcare and resilience services",
+        "Activity Scope (SIPP)": "Hospitals, medical/healthcare facilities, drug rehabilitation, quarantine and evacuation centres, and mobile healthcare",
+        "Indicative Occupations": "Nurses; allied health professionals; medical technologists; emergency and facility technicians",
+        "Competencies / Training Implications": "Health qualifications, facility operations, emergency preparedness and logistics",
+        "Evidence Status / Validation Need": "Regional service need; investment and staffing plans required"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Telecommunications infrastructure and services",
+        "SIPP Category": "Tier I / Infrastructure and logistics",
+        "BARMM Economic Relevance": "Digital infrastructure",
+        "Activity Scope (SIPP)": "Telecommunications facilities, networks, data centres, connectivity and broadband services",
+        "Indicative Occupations": "Telecom technicians; fibre installers; network engineers; data-centre technicians",
+        "Competencies / Training Implications": "Network installation, fibre optics, cybersecurity fundamentals and maintenance",
+        "Evidence Status / Validation Need": "Infrastructure rollout and coverage data needed"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Housing",
+        "SIPP Category": "Tier I / Infrastructure and logistics",
+        "BARMM Economic Relevance": "Construction and housing",
+        "Activity Scope (SIPP)": "Development of housing units subject to SIPP conditions",
+        "Indicative Occupations": "Construction workers; civil technicians; electricians; plumbers; site supervisors",
+        "Competencies / Training Implications": "Construction trades, building systems, safety and quality assurance",
+        "Evidence Status / Validation Need": "Project-level pipeline required"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Ports, terminals and airports",
+        "SIPP Category": "Tier I / Infrastructure and logistics",
+        "BARMM Economic Relevance": "Transport infrastructure",
+        "Activity Scope (SIPP)": "Establishment and operation of airports, seaports and integrated terminal exchanges",
+        "Indicative Occupations": "Port/airport operations staff; logistics coordinators; equipment operators; safety personnel",
+        "Competencies / Training Implications": "Cargo handling, terminal operations, logistics and safety",
+        "Evidence Status / Validation Need": "Project and operational workforce data required"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Air, water and public land transport",
+        "SIPP Category": "Tier I / Infrastructure and logistics",
+        "BARMM Economic Relevance": "Transport services",
+        "Activity Scope (SIPP)": "Commercial passenger/cargo transport operations, including vessels and land transport fleets",
+        "Indicative Occupations": "Drivers; vessel crew; marine engineers; dispatchers; fleet maintenance technicians",
+        "Competencies / Training Implications": "Licensing, fleet maintenance, logistics, passenger safety and operations",
+        "Evidence Status / Validation Need": "Local transport demand and regulatory requirements to validate"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Sustainability-driven industries: waste, water and climate-related projects",
+        "SIPP Category": "Tier I / Sustainability-driven industries",
+        "BARMM Economic Relevance": "Green economy and environmental services",
+        "Activity Scope (SIPP)": "Hazardous waste treatment, bulk water, wastewater treatment, environmental/climate-related goods and services",
+        "Indicative Occupations": "Water technicians; wastewater operators; environmental technicians; waste recovery operators",
+        "Competencies / Training Implications": "Water quality, treatment plant operations, environmental compliance and resource recovery",
+        "Evidence Status / Validation Need": "Strategic priority; local facility and project data required"
+      },
+      {
+        "SIPP Tier": "Tier II",
+        "SIPP Activity / Group": "IC design",
+        "SIPP Category": "Tier II / Industrial value-chain gaps",
+        "BARMM Economic Relevance": "Electronics and advanced manufacturing",
+        "Activity Scope (SIPP)": "Logic and circuit design techniques for integrated circuits",
+        "Indicative Occupations": "Electronics engineers; IC design engineers; verification technicians",
+        "Competencies / Training Implications": "Electronics engineering, semiconductor design and specialised software",
+        "Evidence Status / Validation Need": "Advanced capability; no current local demand evidence"
+      },
+      {
+        "SIPP Tier": "Tier II",
+        "SIPP Activity / Group": "Desalination plants",
+        "SIPP Category": "Tier II / Industrial value-chain gaps",
+        "BARMM Economic Relevance": "Water infrastructure",
+        "Activity Scope (SIPP)": "Establishment and operation of desalination plants",
+        "Indicative Occupations": "Water process technicians; chemical engineers; plant operators",
+        "Competencies / Training Implications": "Water treatment, process control, chemistry and plant maintenance",
+        "Evidence Status / Validation Need": "Project-specific demand to validate"
+      },
+      {
+        "SIPP Tier": "Tier II",
+        "SIPP Activity / Group": "Supply/value-chain resilience: iron and steel, crude oil refining and import substitution",
+        "SIPP Category": "Tier II / Industrial value-chain gaps",
+        "BARMM Economic Relevance": "Industrial supply chains",
+        "Activity Scope (SIPP)": "Domestic production and processing of inputs and import-substituting activities",
+        "Indicative Occupations": "Process technicians; refinery operators; materials technicians; logistics and procurement staff",
+        "Competencies / Training Implications": "Industrial process operations, supply-chain management, quality and safety",
+        "Evidence Status / Validation Need": "Strategic priority; project feasibility and local demand unverified"
+      },
+      {
+        "SIPP Tier": "Tier II",
+        "SIPP Activity / Group": "Sustainability-related activities: EVs, charging, public transport, SAF, critical minerals, bioplastics and renewable energy",
+        "SIPP Category": "Tier II / Sustainability-related activities",
+        "BARMM Economic Relevance": "Green mobility and circular economy",
+        "Activity Scope (SIPP)": "EVs and parts, charging infrastructure, efficient vessels/aircraft, sustainable aviation fuel, critical minerals, bioplastics, integrated waste management and renewable energy",
+        "Indicative Occupations": "EV technicians; charging infrastructure technicians; materials and recycling technicians; renewable energy technicians",
+        "Competencies / Training Implications": "EV systems, power electronics, battery safety, recycling and renewable energy maintenance",
+        "Evidence Status / Validation Need": "Multiple distinct value chains; assess separately at project level"
+      },
+      {
+        "SIPP Tier": "Tier II",
+        "SIPP Activity / Group": "Health-related activities",
+        "SIPP Category": "Tier II / Health-related activities",
+        "BARMM Economic Relevance": "Health manufacturing and services",
+        "Activity Scope (SIPP)": "Health-related manufacturing and activities supporting vaccine self-reliance, medical devices and pharmaceutical products",
+        "Indicative Occupations": "Medical device technicians; laboratory staff; production and quality personnel",
+        "Competencies / Training Implications": "GMP, laboratory practice, medical device servicing and quality systems",
+        "Evidence Status / Validation Need": "Strategic priority; capability and investment pipeline required"
+      },
+      {
+        "SIPP Tier": "Tier II",
+        "SIPP Activity / Group": "Food security-related activities",
+        "SIPP Category": "Tier II / Food security",
+        "BARMM Economic Relevance": "Agriculture and food systems",
+        "Activity Scope (SIPP)": "Production and services supporting food security, including integrated food production, processing and related inputs",
+        "Indicative Occupations": "Agricultural technicians; animal health assistants; feed and fertiliser production operators; food safety staff",
+        "Competencies / Training Implications": "Precision agriculture, animal health, food processing, input production and supply-chain skills",
+        "Evidence Status / Validation Need": "Strong regional relevance; project-level demand to validate"
+      },
+      {
+        "SIPP Tier": "Tier III",
+        "SIPP Activity / Group": "Research and development",
+        "SIPP Category": "Tier III / Science, technology and innovation",
+        "BARMM Economic Relevance": "Research and innovation",
+        "Activity Scope (SIPP)": "R&D activities including plasma applications, advanced materials, power production, industrial coating, nuclear science and clinical trials as specified",
+        "Indicative Occupations": "Research assistants; laboratory scientists; materials specialists; clinical research coordinators",
+        "Competencies / Training Implications": "Research methods, laboratory management, advanced science and regulatory practice",
+        "Evidence Status / Validation Need": "Long-term capability; institutional partnerships required"
+      },
+      {
+        "SIPP Tier": "Tier III",
+        "SIPP Activity / Group": "Commercialisation of patents, industrial designs, copyrights and utility models",
+        "SIPP Category": "Tier III / Science, technology and innovation",
+        "BARMM Economic Relevance": "Innovation and technology transfer",
+        "Activity Scope (SIPP)": "Commercialisation of uncommercialised intellectual property",
+        "Indicative Occupations": "Technology transfer officers; product developers; IP specialists; innovation managers",
+        "Competencies / Training Implications": "IP management, product development, licensing and entrepreneurship",
+        "Evidence Status / Validation Need": "Institutional capability and innovation pipeline to assess"
+      },
+      {
+        "SIPP Tier": "Tier III",
+        "SIPP Activity / Group": "Aerospace, wafer fabrication and defence-related manufacturing",
+        "SIPP Category": "Tier III / Science, technology and innovation",
+        "BARMM Economic Relevance": "Advanced manufacturing",
+        "Activity Scope (SIPP)": "Aerospace products, wafer fabrication and eligible defence-related manufacturing",
+        "Indicative Occupations": "Aerospace technicians; process engineers; cleanroom technicians; quality specialists",
+        "Competencies / Training Implications": "Advanced engineering, precision manufacturing and specialised certification",
+        "Evidence Status / Validation Need": "Long-term; no local project demand established"
+      },
+      {
+        "SIPP Tier": "Tier III",
+        "SIPP Activity / Group": "Hydrogen and nuclear energy",
+        "SIPP Category": "Tier III / Science, technology and innovation",
+        "BARMM Economic Relevance": "Advanced energy systems",
+        "Activity Scope (SIPP)": "Pre-development, establishment, construction, operation, maintenance, decommissioning and disposal of hydrogen/nuclear facilities",
+        "Indicative Occupations": "Chemical/process engineers; energy systems researchers; safety specialists; plant technicians",
+        "Competencies / Training Implications": "Advanced energy engineering, process safety and specialised regulatory competencies",
+        "Evidence Status / Validation Need": "Long-term capability; feasibility and regulatory conditions essential"
+      },
+      {
+        "SIPP Tier": "Tier III",
+        "SIPP Activity / Group": "Cybersecurity",
+        "SIPP Category": "Tier III / Science, technology and innovation",
+        "BARMM Economic Relevance": "Digital resilience",
+        "Activity Scope (SIPP)": "Cybersecurity solutions for real-time mitigation and protection of critical infrastructure",
+        "Indicative Occupations": "Cybersecurity analysts; network security engineers; incident responders",
+        "Competencies / Training Implications": "Cybersecurity operations, risk assessment, incident response and secure systems",
+        "Evidence Status / Validation Need": "Cross-sector capability; local employer demand to validate"
+      },
+      {
+        "SIPP Tier": "Tier III",
+        "SIPP Activity / Group": "Artificial intelligence, quantum technologies, Industry 4.0/5.0 and geospatial analytics",
+        "SIPP Category": "Tier III / BARMM area/region-specific and innovation",
+        "BARMM Economic Relevance": "Advanced digital technologies",
+        "Activity Scope (SIPP)": "AI, machine learning, deep learning, NLP, computer vision, robotics, quantum technologies, advanced automation, IoT, geospatial science and GIS",
+        "Indicative Occupations": "Data analysts; AI/ML engineers; GIS specialists; robotics and automation technicians",
+        "Competencies / Training Implications": "Data science, programming, GIS/remote sensing, automation and responsible AI",
+        "Evidence Status / Validation Need": "Capability-building priority; avoid asserting current shortage"
+      },
+      {
+        "SIPP Tier": "Tier III",
+        "SIPP Activity / Group": "Additive manufacturing, modern biotechnology and hybrid seeds",
+        "SIPP Category": "Tier III / Science, technology and innovation",
+        "BARMM Economic Relevance": "Advanced production and agri-technology",
+        "Activity Scope (SIPP)": "Additive manufacturing, biotechnology applications and production/adoption of new hybrid seeds",
+        "Indicative Occupations": "3D printing technicians; biomedical/agri-biotech researchers; seed technologists",
+        "Competencies / Training Implications": "CAD/CAM, materials science, biotechnology, seed systems and applied research",
+        "Evidence Status / Validation Need": "Long-term capability; research and enterprise partners needed"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "BARMM halal tourism",
+        "SIPP Category": "Area/region-specific priority / Tier I",
+        "BARMM Economic Relevance": "Tourism and halal services",
+        "Activity Scope (SIPP)": "Tourism-related facilities and attractions; hotel catering to BARMM tourists; halal-based tourism or halal-certified accommodation, resorts and attractions",
+        "Indicative Occupations": "Hospitality supervisors; tourism operators; halal assurance staff; destination managers; digital marketers",
+        "Competencies / Training Implications": "Hospitality, halal tourism operations, service quality, destination and enterprise management",
+        "Evidence Status / Validation Need": "Explicit BARMM regional priority; investment and employer pipeline required"
+      },
+      {
+        "SIPP Tier": "Tier I",
+        "SIPP Activity / Group": "Islamic banking and finance under RA 11439",
+        "SIPP Category": "Area/region-specific priority / Tier I",
+        "BARMM Economic Relevance": "Islamic finance",
+        "Activity Scope (SIPP)": "Investment operations by Islamic banks through Shari'ah-compliant arrangements, subject to the Act and SIPP conditions",
+        "Indicative Occupations": "Islamic finance officers; Shari'ah compliance staff; risk analysts; fintech and operations personnel",
+        "Competencies / Training Implications": "Islamic finance, Shari'ah governance, compliance, risk and digital finance",
+        "Evidence Status / Validation Need": "Explicit BARMM regional priority; institutional/project demand to validate"
+      }
+    ]
+  },
+  "SIPP Tier Summary": {
+    "columns": [
+      "SIPP Tier / Priority",
+      "Number of mapped activity groups",
+      "Policy orientation",
+      "Workforce planning response"
+    ],
+    "rows": [
+      {
+        "SIPP Tier / Priority": "Tier I",
+        "Number of mapped activity groups": 32,
+        "Policy orientation": "Modern basic needs and sustainability-driven industries",
+        "Workforce planning response": "Foundational, technical and operational competencies across production, processing, manufacturing, energy, infrastructure, logistics, health, tourism and environmental services."
+      },
+      {
+        "SIPP Tier / Priority": "Tier II",
+        "Number of mapped activity groups": 6,
+        "Policy orientation": "Industrial value-chain gaps and sustainability-related activities",
+        "Workforce planning response": "Specialised industrial, engineering, process, materials, green mobility, circularity, food security and health-related competencies."
+      },
+      {
+        "SIPP Tier / Priority": "Tier III",
+        "Number of mapped activity groups": 7,
+        "Policy orientation": "Science, technology and innovation-related activities",
+        "Workforce planning response": "Research, advanced digital, AI, cybersecurity, geospatial, biotechnology, advanced manufacturing and specialised energy competencies."
+      },
+      {
+        "SIPP Tier / Priority": "BARMM-specific",
+        "Number of mapped activity groups": 2,
+        "Policy orientation": "Halal tourism and investment operations under RA 11439",
+        "Workforce planning response": "Dedicated assessment of halal tourism, halal assurance, Islamic finance, Shari'ah governance, compliance, risk and digital finance."
+      }
+    ]
+  }
+}
