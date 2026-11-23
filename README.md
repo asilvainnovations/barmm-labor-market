@@ -1,4 +1,4 @@
-# BARMM Labour Market Readiness PWA
+# BARMM Labour Market Readiness
 
 A mobile-first Progressive Web App for exploring the SIPP-aligned BARMM Labour Market Statistical Workbook.
 
