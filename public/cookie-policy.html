@@ -1,459 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cookie and Local Storage Policy for BIRD 2026-2035 Validation Survey. Learn how we use browser storage to preserve your progress and enhance your experience.">
-    <meta name="keywords" content="BIRD 2026-2035, cookie policy, local storage, BARMM, Bangsamoro Investment Roadmap, data privacy, validation survey">
-    <meta name="author" content="Bureau of Investments - Ministry of Trade, Investments and Tourism, BARMM">
-    <meta property="og:title" content="Cookie & Local Storage Policy | BIRD 2026-2035">
-    <meta property="og:description" content="Understanding how BIRD 2026-2035 uses browser storage to enhance your survey experience while protecting your privacy.">
-    <meta property="og:type" content="website">
-    <title>Cookie & Local Storage Policy | BIRD 2026-2035 Validation Survey</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #1f2937;
-            background: #f9fafb;
-        }
-
-        .header {
-            background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-
-        .header img {
-            height: 60px;
-            margin-bottom: 1rem;
-        }
-
-        .header h1 {
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .header p {
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 2rem 1rem;
-        }
-
-        .content {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            margin-bottom: 2rem;
-        }
-
-        h2 {
-            color: #064e3b;
-            font-size: 1.5rem;
-            margin: 2rem 0 1rem 0;
-            border-bottom: 2px solid #C9A84C;
-            padding-bottom: 0.5rem;
-        }
-
-        h3 {
-            color: #065f46;
-            font-size: 1.2rem;
-            margin: 1.5rem 0 0.75rem 0;
-        }
-
-        p {
-            margin-bottom: 1rem;
-            text-align: justify;
-        }
-
-        ul {
-            margin: 1rem 0 1rem 2rem;
-        }
-
-        li {
-            margin-bottom: 0.5rem;
-        }
-
-        .highlight {
-            background: #fdf6e3;
-            border-left: 4px solid #C9A84C;
-            padding: 1rem;
-            margin: 1rem 0;
-            border-radius: 4px;
-        }
-
-        .info-box {
-            background: #ecfdf5;
-            border: 1px solid #6ee7b7;
-            padding: 1rem;
-            border-radius: 8px;
-            margin: 1rem 0;
-        }
-
-        .footer {
-            background: #022c22;
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-
-        .footer-links {
-            margin: 1rem 0;
-        }
-
-        .footer-links a {
-            color: #C9A84C;
-            text-decoration: none;
-            margin: 0 1rem;
-        }
-
-        .footer-links a:hover {
-            text-decoration: underline;
-        }
-
-        /* Cookie Consent Banner */
-        .cookie-banner {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(2, 44, 34, 0.98);
-            color: white;
-            padding: 1.5rem;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
-            z-index: 9999;
-            display: none;
-            animation: slideUp 0.3s ease-out;
-        }
-
-        @keyframes slideUp {
-            from {
-                transform: translateY(100%);
-            }
-            to {
-                transform: translateY(0);
-            }
-        }
-
-        .cookie-banner.show {
-            display: block;
-        }
-
-        .cookie-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-between;
-            gap: 1rem;
-        }
-
-        .cookie-text {
-            flex: 1;
-            min-width: 280px;
-        }
-
-        .cookie-text h3 {
-            color: #C9A84C;
-            margin-bottom: 0.5rem;
-            font-size: 1.1rem;
-        }
-
-        .cookie-text p {
-            font-size: 0.95rem;
-            line-height: 1.5;
-            margin-bottom: 0;
-        }
-
-        .cookie-text a {
-            color: #C9A84C;
-            text-decoration: underline;
-        }
-
-        .cookie-buttons {
-            display: flex;
-            gap: 0.75rem;
-            flex-wrap: wrap;
-        }
-
-        .cookie-btn {
-            padding: 0.75rem 1.5rem;
-            border: none;
-            border-radius: 6px;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .cookie-btn-accept {
-            background: linear-gradient(135deg, #C9A84C 0%, #E8C560 100%);
-            color: #022c22;
-        }
-
-        .cookie-btn-accept:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(201, 168, 76, 0.4);
-        }
-
-        .cookie-btn-decline {
-            background: transparent;
-            color: #6ee7b7;
-            border: 1px solid #6ee7b7;
-        }
-
-        .cookie-btn-decline:hover {
-            background: rgba(110, 231, 183, 0.1);
-        }
-
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 1.5rem;
-            }
-
-            .content {
-                padding: 1.5rem;
-            }
-
-            h2 {
-                font-size: 1.3rem;
-            }
-
-            .cookie-content {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .cookie-buttons {
-                width: 100%;
-                justify-content: center;
-            }
-        }
-    </style>
-<style id="mtit-seal">
-/* Shared MTIT seal: one circular treatment on every page (matches the SPA's <MTITLogo/>). */
-img.mtit-seal{width:52px;height:52px;max-width:none;border-radius:50%;object-fit:contain;border:2px solid rgba(201,168,76,.32);background:#022c22;display:block;flex-shrink:0}
-img.mtit-seal.mtit-seal--sm{width:44px;height:44px}
-</style>
-<meta name="theme-color" content="#022c22">
-
-
-<!-- bird-chrome:head --><link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="assets/MTIT-logo-192.png"><link rel="icon" type="image/png" href="assets/MTIT-logo-192.png"><link rel="stylesheet" href="assets/site-chrome.css"><script defer src="assets/site-chrome.js"></script><!-- /bird-chrome:head --></head>
-<body class="bc-on"><!-- bird-chrome:bar --><header class="bc-scope bc-bar" role="banner"><div class="bc-in"><a class="bc-brand" href="https://bird-boi.mtit-barmm.com/" aria-label="BIRD 2026–2035 Investment Roadmap — home"><img class="bc-seal" src="assets/MTIT-logo-circle.webp" width="38" height="38" alt="" decoding="async" onerror="this.onerror=null;this.src='assets/MTIT-logo-circle.png'"><span class="bc-word"><strong>BIRD <span>2026–2035</span></strong><small>MTIT · BARMM</small></span></a><nav class="bc-primary" aria-label="Main"><a href="report/executive-summary.html">Report</a><a href="roadmap.html">Roadmap</a><a href="dashboard.html">Dashboard</a><a href="kpi.html">KPIs</a><a href="ieb.html">Ecosystem</a><a href="resources.html">Resources</a></nav><a class="bc-cta" href="https://bird-boi.mtit-barmm.com/platform">Open the Platform</a><details class="bc-menu"><summary aria-label="Open site menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span>Menu</span></summary><nav class="bc-panel" aria-label="Site menu"><div class="bc-group"><h2>Platform</h2><ul><li><a href="https://bird-boi.mtit-barmm.com/platform"><span>BIRD Strategic Planning Platform<small>SWOT → Systems → Strategy → BSC → PAPs → MEL</small></span></a></li><li><a href="survey-dashboard.html"><span>Validation survey results<small>Closed · n = 76</small></span></a></li><li><a href="user-manual.html"><span>Platform user manual</span></a></li></ul></div><div class="bc-group"><h2>The Report</h2><ul><li><a href="report/executive-summary.html"><span>Executive Summary</span></a></li><li><a href="report/Chapter1.html"><span>Read the report<small>Chapters 1–7</small></span></a></li><li><a href="report/integrated-report.html"><span>Integrated report<small>Single-volume edition</small></span></a></li><li><a href="report/strategic-dashboard.html"><span>Strategic dashboard</span></a></li><li><a href="report/Indexes.html"><span>Subject index</span></a></li></ul></div><div class="bc-group"><h2>Strategy</h2><ul><li><a href="roadmap.html"><span>Investment roadmap</span></a></li><li><a href="options.html"><span>Strategy formulation</span></a></li><li><a href="action-plan.html"><span>One-year action plan 2026</span></a></li><li><a href="strategy-map.html"><span>Strategy map</span></a></li><li><a href="dashboard.html"><span>MEL dashboard</span></a></li><li><a href="kpi.html"><span>KPIs and metrics</span></a></li><li><a href="ieb.html"><span>BEIE ecosystem framework</span></a></li><li><a href="actors-value-network.html"><span>Actors and value network</span></a></li></ul></div><div class="bc-group"><h2>Provinces</h2><ul><li><a href="basilan-outlook.html"><span>Basilan</span></a></li><li><a href="lanao-delsur-outlook.html"><span>Lanao del Sur</span></a></li><li><a href="lds-poa.html"><span>Lanao del Sur · programme of activities</span></a></li><li><a href="maguindanao-delnorte-outlook.html"><span>Maguindanao del Norte</span></a></li><li><a href="maguindanao-delsur-outlook.html"><span>Maguindanao del Sur</span></a></li><li><a href="sga-outlook.html"><span>Special Geographic Area</span></a></li><li><a href="tawi-tawi-outlook.html"><span>Tawi-Tawi</span></a></li><li><a href="tawi-tawi-validation-workshop.html"><span>Tawi-Tawi validation workshop</span></a></li></ul></div><div class="bc-group"><h2>Learn more</h2><ul><li><a href="resources.html"><span>Resource library</span></a></li><li><a href="slides.html"><span>Presentation slides</span></a></li><li><a href="student-guide.html"><span>BEIE student&#x27;s guide</span></a></li><li><a href="contact.html"><span>Contact us</span></a></li></ul></div></nav></details></div></header><!-- /bird-chrome:bar -->    <header class="header">
-        <img src="assets/MTIT-logo-circle.webp" class="mtit-seal" alt="MTIT BARMM Logo" width="52" height="52" decoding="async" onerror="this.onerror=null;this.src='assets/MTIT-logo-circle.png'">
-        <h1>Cookie & Local Storage Policy</h1>
-        <p>BIRD 2026-2035 Validation Survey Platform</p>
-    </header>
-
-    <div class="container">
-        <div class="content">
-            <p><strong>Effective Date:</strong> July 1, 2026 | <strong>Last Updated:</strong> July 1, 2026</p>
-
-            <h2>1. Introduction</h2>
-            <p>This Cookie and Local Storage Policy explains how the Bangsamoro Investment Roadmap Development (BIRD) 2026-2035 Validation Survey platform uses browser storage technologies to enhance your experience. This policy should be read in conjunction with our <a href="https://asilvainnovations.github.io/BIRD-2026-2035/public/privacy-policy.html" style="color: #C9A84C;">Privacy Policy</a>.</p>
-
-            <div class="highlight">
-                <strong>Important:</strong> The BIRD platform does <strong>NOT</strong> use traditional HTTP cookies for tracking, advertising, or analytics purposes. Instead, we use your browser's <strong>localStorage</strong> technology solely to improve your user experience.
-            </div>
-
-            <h2>2. What We Use: LocalStorage (Not Cookies)</h2>
-            <p>LocalStorage is a web technology that allows websites to store small amounts of data directly in your browser. Unlike traditional cookies, localStorage data:</p>
-            <ul>
-                <li>Is stored only on your device</li>
-                <li>Is never transmitted to our servers</li>
-                <li>Cannot be accessed by other websites</li>
-                <li>Does not expire automatically (you can clear it manually)</li>
-                <li>Does not track your browsing activity across sites</li>
-            </ul>
-
-            <h2>3. How We Use LocalStorage</h2>
-            <p>The BIRD platform uses localStorage for two specific purposes:</p>
-
-            <h3>3.1 Progress Preservation</h3>
-            <p>When you participate in the Validation Survey, your responses are automatically saved to your browser's localStorage as you work. This ensures that:</p>
-            <ul>
-                <li>You don't lose your progress if your browser crashes or closes accidentally</li>
-                <li>You can pause the survey and return later to complete it</li>
-                <li>Your partially completed responses are preserved between sessions</li>
-            </ul>
-
-            <h3>3.2 State Management</h3>
-            <p>When you interact with the BIRD Roadmap and Dashboard, localStorage remembers:</p>
-            <ul>
-                <li>Which sections you have expanded or collapsed</li>
-                <li>Your navigation preferences</li>
-                <li>Display settings you have chosen</li>
-            </ul>
-
-            <div class="info-box">
-                <strong>What We Do NOT Store:</strong> We do not store personal information, survey responses (once submitted), login credentials, or any data that could identify you in localStorage. All survey responses are transmitted securely to our servers and are not retained in your browser.
-            </div>
-
-            <h2>4. What We Do NOT Use</h2>
-            <p>The BIRD platform does <strong>NOT</strong> use:</p>
-            <ul>
-                <li>❌ Tracking cookies</li>
-                <li>❌ Advertising pixels or beacons</li>
-                <li>❌ Third-party analytics services (Google Analytics, Facebook Pixel, etc.)</li>
-                <li>❌ Social media tracking</li>
-                <li>❌ Cross-site tracking technologies</li>
-                <li>❌ Session cookies for user profiling</li>
-            </ul>
-
-            <h2>5. Your Control Over LocalStorage</h2>
-            <p>You have complete control over localStorage data. You can:</p>
-
-            <h3>5.1 Clear LocalStorage</h3>
-            <p>To clear all localStorage data from the BIRD platform:</p>
-            <ul>
-                <li><strong>Chrome/Edge:</strong> Settings → Privacy and Security → Clear Browsing Data → Select "Cookies and other site data" → Clear</li>
-                <li><strong>Firefox:</strong> Options → Privacy & Security → Cookies and Site Data → Clear Data</li>
-                <li><strong>Safari:</strong> Preferences → Privacy → Manage Website Data → Remove All</li>
-            </ul>
-
-            <h3>5.2 Disable LocalStorage</h3>
-            <p>You can disable localStorage in your browser settings. However, please note that disabling localStorage will:</p>
-            <ul>
-                <li>Prevent automatic saving of your survey progress</li>
-                <li>Require you to complete the survey in a single session</li>
-                <li>Reset your navigation preferences each time you visit</li>
-            </ul>
-
-            <h3>5.3 Use Private/Incognito Mode</h3>
-            <p>Browsing in private or incognito mode will automatically clear localStorage when you close the browser window.</p>
-
-            <h2>6. Data Security</h2>
-            <p>LocalStorage data is:</p>
-            <ul>
-                <li>Stored locally on your device only</li>
-                <li>Not transmitted over the internet</li>
-                <li>Not accessible to other websites or applications</li>
-                <li>Subject to your browser's built-in security features</li>
-            </ul>
-
-            <h2>7. Consent and Your Choices</h2>
-            <p>When you first visit the BIRD platform, you will see a consent banner asking for your permission to use localStorage. You can:</p>
-            <ul>
-                <li><strong>Accept:</strong> Allow localStorage to be used for progress preservation and state management</li>
-                <li><strong>Decline:</strong> Disable localStorage functionality (survey auto-save will not work)</li>
-            </ul>
-
-            <p>Your consent choice is stored in localStorage so you won't see the banner repeatedly. You can change your preference at any time by clearing your browser data.</p>
-
-            <h2>8. Impact of Declining</h2>
-            <p>If you decline the use of localStorage:</p>
-            <ul>
-                <li>✅ You can still access and use all BIRD platform features</li>
-                <li>✅ You can still complete and submit the Validation Survey</li>
-                <li>✅ Your privacy is fully protected</li>
-                <li>❌ Survey progress will not auto-save (you must complete in one session)</li>
-                <li>❌ Navigation preferences will not be remembered</li>
-            </ul>
-
-            <h2>9. Changes to This Policy</h2>
-            <p>We may update this Cookie and Local Storage Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date. We encourage you to review this policy periodically.</p>
-
-            <h2>10. Contact Us</h2>
-            <p>If you have questions about this Cookie and Local Storage Policy or our data practices, please contact:</p>
-            <div class="info-box">
-                <strong>Data Protection Officer – BOI-MTIT, BARMM</strong><br>
-                Email: <a href="mailto:boi@bangsamoro.gov.ph" style="color: #C9A84C;">boi@bangsamoro.gov.ph</a><br>
-                Telephone: (064) 557 2819<br>
-                Mobile: 0917.834.333<br>
-                Address: Bangsamoro Government Complex, Cotabato City, BARMM, Philippines
-            </div>
-
-            <p>For complaints that cannot be resolved directly with us, you may contact the National Privacy Commission (NPC) of the Philippines at <a href="https://privacy.gov.ph" style="color: #C9A84C;">privacy.gov.ph</a>.</p>
-
-            <h2>11. Related Policies</h2>
-            <p>This Cookie and Local Storage Policy is part of our broader privacy framework. Please also review:</p>
-            <ul>
-                <li><a href="https://asilvainnovations.github.io/BIRD-2026-2035/public/privacy-policy.html" style="color: #C9A84C; font-weight: 600;">Privacy Policy</a> - Comprehensive information about how we collect, use, and protect your personal data</li>
-            </ul>
-        </div>
-    </div>
-
-    
-
-    <!-- Cookie Consent Banner -->
-    <div id="cookieBanner" class="cookie-banner">
-        <div class="cookie-content">
-            <div class="cookie-text">
-                <h3>🍪 We Use LocalStorage to Enhance Your Experience</h3>
-                <p>
-                    The BIRD platform uses your browser's localStorage (not traditional cookies) to automatically save your survey progress and remember your preferences. This data stays on your device and is never sent to our servers. 
-                    <a href="https://asilvainnovations.github.io/BIRD-2026-2035/public/privacy-policy.html">Learn more</a>
-                </p>
-            </div>
-            <div class="cookie-buttons">
-                <button id="acceptBtn" class="cookie-btn cookie-btn-accept">Accept</button>
-                <button id="declineBtn" class="cookie-btn cookie-btn-decline">Decline</button>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // Cookie/LocalStorage Consent Management
-        (function() {
-            const CONSENT_KEY = 'bird_storage_consent';
-            const banner = document.getElementById('cookieBanner');
-            const acceptBtn = document.getElementById('acceptBtn');
-            const declineBtn = document.getElementById('declineBtn');
-
-            // Check if user has already made a choice
-            function checkConsent() {
-                const consent = localStorage.getItem(CONSENT_KEY);
-                if (!consent) {
-                    // Show banner if no consent recorded
-                    setTimeout(() => {
-                        banner.classList.add('show');
-                    }, 1000);
-                }
-            }
-
-            // Handle Accept
-            acceptBtn.addEventListener('click', function() {
-                localStorage.setItem(CONSENT_KEY, 'accepted');
-                banner.classList.remove('show');
-                console.log('LocalStorage consent accepted');
-            });
-
-            // Handle Decline
-            declineBtn.addEventListener('click', function() {
-                localStorage.setItem(CONSENT_KEY, 'declined');
-                banner.classList.remove('show');
-                
-                // Clear any existing localStorage data (except consent itself)
-                const keysToKeep = [CONSENT_KEY];
-                const allKeys = Object.keys(localStorage);
-                allKeys.forEach(key => {
-                    if (!keysToKeep.includes(key)) {
-                        localStorage.removeItem(key);
-                    }
-                });
-                
-                console.log('LocalStorage consent declined - existing data cleared');
-            });
-
-            // Initialize on page load
-            checkConsent();
-        })();
-    </script>
-
-
-<!-- bird-chrome:footer --><footer class="bc-scope bc-footer" role="contentinfo"><div class="bc-fin"><div class="bc-fgrid"><div class="bc-fbrand"><a class="bc-brand" href="https://bird-boi.mtit-barmm.com/" aria-label="BIRD 2026–2035 Investment Roadmap — home"><img class="bc-seal" src="assets/MTIT-logo-circle.webp" width="38" height="38" alt="" decoding="async" onerror="this.onerror=null;this.src='assets/MTIT-logo-circle.png'"><span class="bc-word"><strong>BIRD <span>2026–2035</span></strong><small>MTIT · BARMM</small></span></a><p>Bangsamoro Investment Roadmap Development 2026–2035. Prepared for the Bureau of Investments, Ministry of Trade, Investments and Tourism, BARMM.</p><a class="bc-cta" href="https://bird-boi.mtit-barmm.com/platform">Open the Platform</a></div><div class="bc-fcol"><h2>Platform</h2><ul><li><a href="https://bird-boi.mtit-barmm.com/platform">BIRD Strategic Planning Platform</a></li><li><a href="survey-dashboard.html">Validation survey results</a></li><li><a href="user-manual.html">Platform user manual</a></li><li><a href="resources.html">Resource library</a></li><li><a href="contact.html">Contact us</a></li></ul></div><div class="bc-fcol"><h2>The Report</h2><ul><li><a href="report/executive-summary.html">Executive Summary</a></li><li><a href="report/Chapter1.html">Read the report</a></li><li><a href="report/integrated-report.html">Integrated report</a></li><li><a href="report/strategic-dashboard.html">Strategic dashboard</a></li><li><a href="report/Indexes.html">Subject index</a></li></ul></div><div class="bc-fcol"><h2>Strategy</h2><ul><li><a href="roadmap.html">Investment roadmap</a></li><li><a href="options.html">Strategy formulation</a></li><li><a href="action-plan.html">One-year action plan 2026</a></li><li><a href="strategy-map.html">Strategy map</a></li><li><a href="dashboard.html">MEL dashboard</a></li><li><a href="kpi.html">KPIs and metrics</a></li></ul></div><div class="bc-fcol"><h2>Provinces</h2><ul><li><a href="basilan-outlook.html">Basilan</a></li><li><a href="lanao-delsur-outlook.html">Lanao del Sur</a></li><li><a href="lds-poa.html">Lanao del Sur · programme of activities</a></li><li><a href="maguindanao-delnorte-outlook.html">Maguindanao del Norte</a></li><li><a href="maguindanao-delsur-outlook.html">Maguindanao del Sur</a></li><li><a href="sga-outlook.html">Special Geographic Area</a></li><li><a href="tawi-tawi-outlook.html">Tawi-Tawi</a></li></ul></div></div><div class="bc-fbottom"><p>© 2026 Bangsamoro Autonomous Region in Muslim Mindanao · MTIT. Developed by <a href="https://asilvainnovations.com" target="_blank" rel="noopener noreferrer">ASilva Innovations</a>.</p><div class="bc-flegal"><a href="privacy-policy.html">Privacy</a><a href="cookie-policy.html">Cookies</a><a href="terms-of-service.html">Terms</a></div></div></div></footer><!-- /bird-chrome:footer --></body>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Cookie Policy & Settings | BARMM Labour Market Readiness – MTIT</title>
+<meta name="description" content="Cookie Policy and consent settings for the BARMM Labour Market Readiness platform: the cookies and browser storage we use, why, and how to change your choices.">
+<meta name="keywords" content="BARMM cookie policy, cookie settings, MTIT cookies, Bangsamoro labour market dashboard cookies">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://labor-market.mtit-barmm.com/public/cookie-policy">
+<meta name="theme-color" content="#0b3d2e"><meta name="application-name" content="BARMM Labour Market Readiness">
+<meta property="og:type" content="website"><meta property="og:site_name" content="BARMM Labour Market Readiness"><meta property="og:locale" content="en_PH">
+<meta property="og:title" content="Cookie Policy & Settings | BARMM Labour Market Readiness – MTIT"><meta property="og:description" content="Cookie Policy and consent settings for the BARMM Labour Market Readiness platform: the cookies and browser storage we use, why, and how to change your choices."><meta property="og:url" content="https://labor-market.mtit-barmm.com/public/cookie-policy"><meta property="og:image" content="https://labor-market.mtit-barmm.com/assets/mtit-icon-512.png"><meta property="og:image:alt" content="Official MTIT seal">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Cookie Policy & Settings | BARMM Labour Market Readiness – MTIT"><meta name="twitter:description" content="Cookie Policy and consent settings for the BARMM Labour Market Readiness platform: the cookies and browser storage we use, why, and how to change your choices."><meta name="twitter:image" content="https://labor-market.mtit-barmm.com/assets/mtit-icon-512.png">
+<link rel="manifest" href="../manifest.webmanifest"><link rel="icon" href="../assets/mtit-icon.svg" type="image/svg+xml"><link rel="icon" href="../assets/mtit-icon-192.png" sizes="192x192" type="image/png"><link rel="apple-touch-icon" href="../assets/mtit-icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@500;600;700&family=Roboto+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/public-pages.css">
+<script src="../assets/consent.js"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://labor-market.mtit-barmm.com/public/cookie-policy#webpage", "url": "https://labor-market.mtit-barmm.com/public/cookie-policy", "name": "Cookie Policy & Settings | BARMM Labour Market Readiness – MTIT", "description": "Cookie Policy and consent settings for the BARMM Labour Market Readiness platform: the cookies and browser storage we use, why, and how to change your choices.", "inLanguage": "en-PH", "dateModified": "2026-11-23", "isPartOf": {"@type": "WebSite", "@id": "https://labor-market.mtit-barmm.com/#website", "name": "BARMM Labour Market Readiness", "url": "https://labor-market.mtit-barmm.com/"}, "publisher": {"@id": "https://labor-market.mtit-barmm.com/#org"}}, {"@type": "GovernmentOrganization", "@id": "https://labor-market.mtit-barmm.com/#org", "name": "Ministry of Trade, Investments and Tourism (MTIT) – BARMM", "url": "https://mtit.bangsamoro.gov.ph", "logo": "https://labor-market.mtit-barmm.com/assets/mtit-icon-512.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Dashboard", "item": "https://labor-market.mtit-barmm.com/"}, {"@type": "ListItem", "position": 2, "name": "Cookie Policy & Settings", "item": "https://labor-market.mtit-barmm.com/public/cookie-policy"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<aside class="sidebar" id="sidebar" aria-label="Side panel">
+ <a class="brand" href="../index.html"><span class="brand-mark"><img src="../assets/MTIT-logo.webp" alt="Official Ministry of Trade, Investments and Tourism (MTIT) logo" width="46" height="46"></span><span><span class="brand-name">BARMM LABOUR<br>MARKET READINESS</span><small>Workforce intelligence platform</small></span></a>
+ <div class="nav-label">Workspace</div><nav class="nav" aria-label="Workspace">
+ <a href="../index.html#overview"><span aria-hidden="true">◫</span>Overview</a>
+ <a href="../index.html#labour"><span aria-hidden="true">▥</span>Labour Market</a>
+ <a href="../index.html#sectors"><span aria-hidden="true">◈</span>Sector &amp; Investment</a>
+ <a href="../index.html#provincial"><span aria-hidden="true">⌖</span>Provincial Profile</a>
+ <a href="../index.html#tvet"><span aria-hidden="true">▤</span>TVET &amp; Skills</a>
+ <a href="../index.html#sipp"><span aria-hidden="true">⬡</span>SIPP Workforce Map</a>
+ </nav>
+ <div class="nav-label">Data &amp; Administration</div><nav class="nav" aria-label="Data and administration">
+ <a href="../index.html#datasets"><span aria-hidden="true">▦</span>Data Explorer</a>
+ <a href="../index.html#projects"><span aria-hidden="true">＋</span>Project Register</a>
+ <a href="../index.html#settings"><span aria-hidden="true">⚙</span>Data &amp; Sources</a>
+ </nav>
+ <div class="nav-label">Support &amp; Policies</div><nav class="nav" aria-label="Support and policies">
+ <a href="contact.html"><span aria-hidden="true">✉</span>Contact Us</a>
+ <div class="nav-dropdown open">
+  <button class="nav-trigger" type="button" aria-expanded="true" aria-controls="policyMenu"><span aria-hidden="true">§</span>Policies<span class="caret" aria-hidden="true">▾</span></button>
+  <div class="nav-sub" id="policyMenu">
+   <a href="terms-of-service.html">Terms of Service</a>
+   <a href="privacy-policy.html">Privacy Policy</a>
+   <a href="cookie-policy.html" class="active" aria-current="page">Cookie Policy &amp; Settings</a>
+  </div>
+ </div>
+ </nav>
+ <div class="sidebar-foot">MTIT – Bureau of Investments<br>BARMM · Phase II Policy Support<br><span style="opacity:.7">© 2026 · </span><button type="button" data-cookie-settings>Cookie settings</button></div>
+</aside>
+<div class="main">
+ <header class="topbar"><div style="display:flex;align-items:center;gap:14px"><button class="icon-btn menu-btn" id="menuBtn" aria-controls="sidebar" aria-expanded="false" aria-label="Open side panel">☰</button><nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="../index.html">Dashboard</a></li><li aria-current="page">Cookie Policy &amp; Settings</li></ol></nav></div><div class="top-actions"><a class="btn primary" href="../index.html#overview">◫ <span>Open dashboard</span></a></div></header>
+ <main class="content" id="main">
+  <div class="page-head"><div><div class="eyebrow">Policies · Cookies</div><h1 class="page-title">Cookie Policy &amp; Settings</h1><div class="page-sub">Which cookies and browser storage the platform uses, why we use them, and how to change your consent at any time.</div><div class="meta"><span class="pill gold">Last updated 23 November 2026</span><span class="pill">Opt-in analytics</span><span class="pill">Version 2.0</span></div></div></div>
+  <section class="card" style="margin-bottom:16px" aria-labelledby="settings-h"><div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center"><div><h2 class="section-title" id="settings-h">Your cookie settings</h2><p class="section-note" id="consentStatus" role="status" aria-live="polite" style="margin:0">Loading your current choice…</p></div><button type="button" class="btn primary" data-cookie-settings>⚙ Open Cookie Settings</button></div></section>
+  <div class="doc-layout">
+   <nav class="card toc" aria-label="On this page"><h2 class="section-title">On this page</h2><ol><li><a href="#about">1. About this policy</a></li><li><a href="#consent">2. How consent works</a></li><li><a href="#categories">3. Categories we use</a></li><li><a href="#list">4. Cookies and storage in use</a></li><li><a href="#third">5. Third-party requests</a></li><li><a href="#manage">6. Managing your choices</a></li><li><a href="#changes-c">7. Changes and contact</a></li></ol></nav>
+   <article class="card doc"><section id="about" aria-labelledby="about-h"><h2 id="about-h">1. About this policy</h2><p>This Cookie Policy explains how the BARMM Labour Market Readiness platform (the “Platform”), operated by MTIT–BOI, BARMM, uses cookies and similar browser storage technologies, and how you control them. It should be read together with our <a href="privacy-policy.html">Privacy Policy</a>.</p><p>“Cookies” here includes HTTP cookies and similar technologies such as localStorage, sessionStorage, IndexedDB and the service-worker cache.</p></section><section id="consent" aria-labelledby="consent-h"><h2 id="consent-h">2. How consent works</h2><p>Only strictly necessary storage is active by default. After you have spent <b>two minutes</b> actively using the Platform, a <b>Cookie Consent &amp; Settings</b> pop-up asks whether you also allow preference and analytics storage. You can accept all, reject non-essential storage, or choose each category. Until you choose, nothing non-essential is set. We ask again after twelve months or if our use of cookies changes materially.</p></section><section id="categories" aria-labelledby="categories-h"><h2 id="categories-h">3. Categories we use</h2><h3>Strictly necessary</h3><p>Required for the Platform to work and to remember your privacy choice. These cannot be switched off in our settings, but you can delete them in your browser.</p><h3>Preferences</h3><p>Remember how you use the dashboard, such as the last section you viewed. Off unless you opt in.</p><h3>Analytics</h3><p>Google Analytics helps us understand, in aggregate, which labour market evidence is most used so we can improve it. The analytics script is not loaded at all unless you opt in. We do not use advertising, retargeting or social-media tracking cookies.</p></section><section id="list" aria-labelledby="list-h"><h2 id="list-h">4. Cookies and storage in use</h2><div class="table-wrap"><table class="data-table"><thead><tr><th>Name</th><th>Type</th><th>Category</th><th>Purpose</th><th>Duration</th></tr></thead><tbody>
+<tr><td><code>barmmCookieConsent</code></td><td>localStorage</td><td>Strictly necessary</td><td>Records your consent choice so we do not ask again</td><td>12 months</td></tr>
+<tr><td><code>barmmVisitMs</code></td><td>sessionStorage</td><td>Strictly necessary</td><td>Counts active minutes in this visit so the consent pop-up appears after two minutes</td><td>Until the browser tab is closed</td></tr>
+<tr><td><code>barmm-labour-readiness</code></td><td>IndexedDB</td><td>Strictly necessary</td><td>Stores Project Register records you create (with <code>barmmProjects</code> localStorage fallback)</td><td>Until you delete them</td></tr>
+<tr><td>App cache (service worker)</td><td>Cache Storage</td><td>Strictly necessary</td><td>Lets the installed app load quickly and work offline</td><td>Until updated or cleared</td></tr>
+<tr><td><code>barmmLastPage</code></td><td>localStorage</td><td>Preferences</td><td>Reopens the dashboard section you last viewed</td><td>Until you withdraw consent or clear it</td></tr>
+<tr><td><code>_ga</code>, <code>_ga_&lt;ID&gt;</code></td><td>HTTP cookie (Google)</td><td>Analytics</td><td>Distinguishes visits for aggregate statistics; IP anonymised</td><td>Up to 13 months</td></tr>
+</tbody></table></div></section><section id="third" aria-labelledby="third-h"><h2 id="third-h">5. Third-party requests</h2><p>Loading web fonts (Google Fonts) and the charting library (jsDelivr) sends your IP address and browser details to those providers, as with any web resource. These requests do not set cookies on our behalf. See the <a href="privacy-policy.html#processors">Privacy Policy</a> for details.</p></section><section id="manage" aria-labelledby="manage-h"><h2 id="manage-h">6. Managing your choices</h2><p>You can change or withdraw consent at any time, on any page, using <b>Cookie settings</b> in the side panel or footer. When you withdraw analytics consent, we stop loading Google Analytics and delete its cookies for this site. When you withdraw preference consent, we delete the stored preference.</p><p>You can also manage storage in your browser: <b>Chrome/Edge</b> — Settings › Privacy and security › Cookies and other site data; <b>Firefox</b> — Settings › Privacy &amp; Security › Cookies and Site Data; <b>Safari</b> — Settings › Privacy › Manage Website Data. Clearing site data also deletes Project Register records stored on your device, so export them first.</p></section><section id="changes-c" aria-labelledby="changes-c-h"><h2 id="changes-c-h">7. Changes and contact</h2><p>We will update this policy if our use of cookies changes. Questions can be sent through our <a href="contact.html">contact page</a> or to our Data Protection Officer at <a href="mailto:boi@bangsamoro.gov.ph">boi@bangsamoro.gov.ph</a>.</p></section></article>
+  </div>
+ </main>
+ <footer class="site-foot"><span>© 2026 Ministry of Trade, Investments and Tourism – Bureau of Investments, BARMM</span><nav aria-label="Footer"><a href="../index.html">Dashboard</a><a href="contact.html">Contact Us</a><a href="terms-of-service.html">Terms of Service</a><a href="privacy-policy.html">Privacy Policy</a><a href="cookie-policy.html">Cookie Policy</a><button type="button" data-cookie-settings>Cookie settings</button></nav></footer>
+</div>
+<script src="../assets/public-pages.js" defer></script>
+</body>
 </html>

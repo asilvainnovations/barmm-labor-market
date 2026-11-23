@@ -1,5 +1,16 @@
+"""Legacy one-off generator (superseded).
+
+index.html and the public/ pages have since been rebuilt by hand with the shared
+assets/public-pages.css, assets/public-pages.js and assets/consent.js files.
+Running this script would overwrite those pages with older content, so it now
+refuses to run unless --force is passed.
+"""
 import os
+import sys
 import zipfile
+
+if "--force" not in sys.argv:
+    sys.exit("generate_barmm_files.py is superseded and would overwrite index.html and public/*.html. Re-run with --force to proceed anyway.")
 
 print("Starting BARMM Labour Market Readiness file generation...")
 

@@ -1,727 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2CNG7D15Q7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2CNG7D15Q7');
-</script>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-<meta name="theme-color" content="#022c22">
-<meta name="description" content="Privacy Policy – BIRD 2026-2035 Strategic Validation Survey | BARMM MTIT">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<title>Privacy Policy | BIRD 2026–2035 Validation Survey</title>
-<style>
-:root{
---primary-green:#064e3b;--dark-green:#022c22;--mid-green:#065f46;
---light-green:#6ee7b7;--cream:#ecfdf5;--white:#ffffff;
---text-light:#ffffff;--text-muted:#64748b;
---gold:#C9A84C;--gold-light:#E8C560;--gold-dark:#8B6C28;--gold-pale:#fdf6e3;
---gold-border:rgba(201,168,76,0.32);--gold-border-strong:rgba(201,168,76,0.55);
---gold-glow:rgba(201,168,76,0.20);
---gold-grad:linear-gradient(135deg,#7a5c1e 0%,#c9a84c 35%,#e8c560 50%,#c9a84c 65%,#7a5c1e 100%);
---focus-ring:0 0 0 3px rgba(201,168,76,0.5);
---touch-target:44px;
-}
-@media (prefers-reduced-motion: reduce) {
-*, *::before, *::after {
-animation-duration: 0.01ms !important;
-transition-duration: 0.01ms !important;
-scroll-behavior: auto !important;
-}
-}
-* { margin:0; padding:0; box-sizing:border-box; }
-html { scroll-behavior:smooth; font-size:16px; }
-body {
-font-family:'DM Sans',sans-serif;
-background:linear-gradient(160deg,#011a12 0%,#022c22 45%,#0a1628 100%);
-min-height:100vh;
-color:var(--cream);
-background-attachment:fixed;
-overflow-x:hidden;
-line-height:1.6;
--webkit-font-smoothing:antialiased;
-}
-.skip-link {
-position:absolute;
-top:-40px;
-left:0;
-background:var(--gold);
-color:var(--dark-green);
-padding:8px;
-text-decoration:none;
-z-index:9999;
-font-weight:bold;
-border-radius:0 0 4px 0;
-}
-.skip-link:focus { top:0; }
-/* NAV */
-.site-nav {
-background:rgba(2,44,34,.97);
-backdrop-filter:blur(18px);
-position:sticky;
-top:0;
-width:100%;
-z-index:200;
-border-bottom:2px solid var(--gold-border);
-transition:box-shadow .4s;
-}
-.site-nav.scrolled { box-shadow:0 4px 30px rgba(0,0,0,.5); }
-.nav-inner {
-max-width:1400px;
-margin:0 auto;
-padding:.75rem 1rem;
-display:flex;
-justify-content:space-between;
-align-items:center;
-gap:1rem;
-min-height:var(--touch-target);
-}
-.nav-logo img { height:40px; width:auto; object-fit:contain; display:block; }
-.nav-links-list {
-display:flex;
-flex-direction:row;
-gap:1.5rem;
-padding:0;
-background:transparent;
-border:none;
-list-style:none;
-}
-.nav-links-list a {
-color:var(--light-green);
-text-decoration:none;
-font-size:.82rem;
-font-weight:500;
-letter-spacing:.03em;
-position:relative;
-transition:color .3s;
-padding:.25rem 0;
-white-space:nowrap;
-}
-.nav-links-list a:hover,
-.nav-links-list a:focus {
-color:var(--gold);
-background:none;
-outline:none;
-}
-.nav-links-list a::after {
-content:'';
-position:absolute;
-bottom:-3px;
-left:0;
-width:0;
-height:2px;
-background:var(--gold);
-transition:width .3s;
-}
-.nav-links-list a:hover::after,
-.nav-links-list a:focus::after { width:100%; }
-.nav-logo img { height:52px; }
-.nav-inner { padding:.55rem 2rem; }
-/* PAGE HEADER */
-.page-header {
-text-align:center;
-padding:3.5rem 2rem 2rem;
-position:relative;
-}
-.page-header::before {
-content:'';
-position:absolute;
-top:0;
-left:50%;
-transform:translateX(-50%);
-width:220px;
-height:4px;
-background:var(--gold-grad);
-border-radius:2px;
-}
-.page-header::after {
-content:'';
-position:absolute;
-inset:0;
-background:radial-gradient(ellipse at 50% 0%,rgba(201,168,76,.06) 0%,transparent 65%);
-pointer-events:none;
-}
-.header-eyebrow {
-display:inline-block;
-background:rgba(201,168,76,.10);
-border:1px solid var(--gold-border-strong);
-color:var(--gold);
-padding:.35rem 1.25rem;
-border-radius:2rem;
-font-size:.72rem;
-font-weight:700;
-letter-spacing:.12em;
-text-transform:uppercase;
-margin-bottom:1rem;
-}
-.page-header h1 {
-font-family:'Cinzel',serif;
-font-size:clamp(1.8rem,5vw,3rem);
-font-weight:700;
-background:var(--gold-grad);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
-background-clip:text;
-line-height:1.2;
-margin-bottom:.5rem;
-}
-.page-header .subtitle {
-font-size:1.15rem;
-color:var(--light-green);
-font-weight:600;
-margin-bottom:.4rem;
-font-family:'Cinzel',serif;
-}
-.page-header .tagline {
-font-size:.95rem;
-color:rgba(255,255,255,.55);
-font-style:italic;
-letter-spacing:.02em;
-}
-/* MAIN CONTAINER */
-.page-container {
-max-width:1000px;
-margin:0 auto;
-padding:0 2rem 4rem;
-}
-/* POLICY CARD */
-.policy-card {
-background:rgba(2,44,34,.55);
-border:1px solid var(--gold-border);
-border-radius:1rem;
-padding:2rem;
-margin-bottom:2rem;
-position:relative;
-overflow:hidden;
-backdrop-filter:blur(10px);
-box-shadow:0 8px 30px rgba(0,0,0,.3);
-}
-.policy-card::before {
-content:'';
-position:absolute;
-top:0;
-left:0;
-right:0;
-height:3px;
-background:var(--gold-grad);
-border-radius:1rem 1rem 0 0;
-}
-.policy-meta {
-display:flex;
-flex-wrap:wrap;
-gap:1rem;
-margin-bottom:1.5rem;
-padding-bottom:1.5rem;
-border-bottom:1px solid var(--gold-border);
-}
-.meta-item {
-flex:1;
-min-width:200px;
-}
-.meta-label {
-font-size:.72rem;
-color:var(--gold);
-text-transform:uppercase;
-letter-spacing:.08em;
-font-weight:700;
-margin-bottom:.25rem;
-}
-.meta-value {
-font-size:.88rem;
-color:var(--cream);
-line-height:1.5;
-}
-.policy-section {
-margin-bottom:2rem;
-}
-.policy-section:last-child {
-margin-bottom:0;
-}
-.policy-section h2 {
-font-family:'Cinzel',serif;
-color:var(--gold);
-font-size:1.2rem;
-font-weight:700;
-margin-bottom:1rem;
-padding-bottom:.5rem;
-border-bottom:1px solid var(--gold-border);
-display:flex;
-align-items:center;
-gap:.6rem;
-}
-.policy-section h2 .section-num {
-display:inline-flex;
-align-items:center;
-justify-content:center;
-width:28px;
-height:28px;
-background:var(--gold-grad);
-color:var(--dark-green);
-border-radius:50%;
-font-size:.85rem;
-font-weight:900;
-font-family:'DM Sans',sans-serif;
-flex-shrink:0;
-}
-.policy-section h3 {
-font-family:'Cinzel',serif;
-color:var(--light-green);
-font-size:1rem;
-font-weight:700;
-margin:1.2rem 0 .6rem;
-}
-.policy-section p {
-color:rgba(236,253,245,.85);
-font-size:.92rem;
-line-height:1.7;
-margin-bottom:.8rem;
-}
-.policy-section ul, .policy-section ol {
-color:rgba(236,253,245,.85);
-font-size:.92rem;
-line-height:1.7;
-margin:0 0 1rem 1.5rem;
-}
-.policy-section li {
-margin-bottom:.5rem;
-}
-.policy-section li::marker {
-color:var(--gold);
-}
-.policy-section strong {
-color:var(--gold);
-font-weight:600;
-}
-.policy-section em {
-color:var(--light-green);
-font-style:italic;
-}
-/* HIGHLIGHT BOX */
-.highlight-box {
-background:rgba(201,168,76,.08);
-border-left:4px solid var(--gold);
-padding:1rem 1.2rem;
-border-radius:0 .6rem .6rem 0;
-margin:1rem 0;
-}
-.highlight-box p {
-margin:0;
-font-size:.88rem;
-color:rgba(236,253,245,.9);
-}
-.highlight-box strong {
-color:var(--gold);
-}
-/* DATA TABLE */
-.data-table {
-width:100%;
-border-collapse:collapse;
-font-size:.88rem;
-margin:1rem 0;
-background:rgba(0,0,0,.2);
-border-radius:.5rem;
-overflow:hidden;
-}
-.data-table th, .data-table td {
-padding:.75rem 1rem;
-text-align:left;
-border-bottom:1px solid var(--gold-border);
-}
-.data-table th {
-background:rgba(201,168,76,.12);
-color:var(--gold);
-font-family:'Cinzel',serif;
-font-size:.78rem;
-font-weight:700;
-letter-spacing:.05em;
-text-transform:uppercase;
-}
-.data-table td {
-color:rgba(236,253,245,.85);
-vertical-align:top;
-}
-.data-table tr:last-child td {
-border-bottom:none;
-}
-.data-table tr:hover td {
-background:rgba(201,168,76,.05);
-}
-/* CONTACT BOX */
-.contact-box {
-background:linear-gradient(135deg,rgba(6,78,59,.4) 0%,rgba(6,95,70,.25) 100%);
-border:1px solid var(--gold-border-strong);
-border-radius:.75rem;
-padding:1.5rem;
-margin-top:1rem;
-}
-.contact-box h4 {
-font-family:'Cinzel',serif;
-color:var(--gold);
-font-size:1rem;
-margin-bottom:.75rem;
-}
-.contact-box p {
-font-size:.88rem;
-color:var(--cream);
-margin-bottom:.4rem;
-}
-.contact-box a {
-color:var(--gold-light);
-text-decoration:none;
-border-bottom:1px dotted var(--gold-border);
-transition:color .3s;
-}
-.contact-box a:hover {
-color:var(--gold);
-border-bottom-color:var(--gold);
-}
-/* FOOTER */
-footer {
-text-align:center;
-padding:2rem 1rem;
-border-top:1px solid var(--gold-border);
-margin-top:2rem;
-}
-footer p {
-font-size:.75rem;
-color:rgba(255,255,255,.3);
-margin-top:.3rem;
-}
-footer .gold-text {
-color:var(--gold);
-}
-/* BACK TO TOP */
-.back-top {
-display:inline-block;
-margin-top:1.5rem;
-padding:.6rem 1.2rem;
-background:transparent;
-border:1px solid var(--gold-border);
-color:var(--gold);
-border-radius:2rem;
-text-decoration:none;
-font-size:.82rem;
-font-weight:600;
-transition:all .3s;
-}
-.back-top:hover {
-background:rgba(201,168,76,.1);
-border-color:var(--gold);
-transform:translateY(-2px);
-}
-/* RESPONSIVE */
-@media (max-width: 640px) {
-.page-container { padding:0 1rem 3rem; }
-.policy-card { padding:1.5rem; }
-.policy-section h2 { font-size:1.05rem; }
-.nav-links-list { display:none; }
-.data-table { font-size:.8rem; }
-.data-table th, .data-table td { padding:.6rem .75rem; }
-}
-/* FOCUS */
-:focus-visible {
-outline:2px solid var(--gold);
-outline-offset:2px;
-}
-</style>
-<base target="_blank">
-<style id="mtit-seal">
-/* Shared MTIT seal: one circular treatment on every page (matches the SPA's <MTITLogo/>). */
-img.mtit-seal{width:52px;height:52px;max-width:none;border-radius:50%;object-fit:contain;border:2px solid rgba(201,168,76,.32);background:#022c22;display:block;flex-shrink:0}
-img.mtit-seal.mtit-seal--sm{width:44px;height:44px}
-</style>
-
-
-<!-- bird-chrome:head --><link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="assets/MTIT-logo-192.png"><link rel="icon" type="image/png" href="assets/MTIT-logo-192.png"><link rel="stylesheet" href="assets/site-chrome.css"><script defer src="assets/site-chrome.js"></script><!-- /bird-chrome:head --></head>
-<body class="bc-on">
-<a href="#mainContent" class="skip-link">Skip to main content</a><!-- bird-chrome:stub --><div hidden aria-hidden="true" data-legacy-stub><div id="siteNav"></div></div><!-- /bird-chrome:stub --><!-- bird-chrome:bar --><header class="bc-scope bc-bar" role="banner"><div class="bc-in"><a class="bc-brand" href="https://bird-boi.mtit-barmm.com/" aria-label="BIRD 2026–2035 Investment Roadmap — home"><img class="bc-seal" src="assets/MTIT-logo-circle.webp" width="38" height="38" alt="" decoding="async" onerror="this.onerror=null;this.src='assets/MTIT-logo-circle.png'"><span class="bc-word"><strong>BIRD <span>2026–2035</span></strong><small>MTIT · BARMM</small></span></a><nav class="bc-primary" aria-label="Main"><a href="report/executive-summary.html">Report</a><a href="roadmap.html">Roadmap</a><a href="dashboard.html">Dashboard</a><a href="kpi.html">KPIs</a><a href="ieb.html">Ecosystem</a><a href="resources.html">Resources</a></nav><a class="bc-cta" href="https://bird-boi.mtit-barmm.com/platform">Open the Platform</a><details class="bc-menu"><summary aria-label="Open site menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span>Menu</span></summary><nav class="bc-panel" aria-label="Site menu"><div class="bc-group"><h2>Platform</h2><ul><li><a href="https://bird-boi.mtit-barmm.com/platform"><span>BIRD Strategic Planning Platform<small>SWOT → Systems → Strategy → BSC → PAPs → MEL</small></span></a></li><li><a href="survey-dashboard.html"><span>Validation survey results<small>Closed · n = 76</small></span></a></li><li><a href="user-manual.html"><span>Platform user manual</span></a></li></ul></div><div class="bc-group"><h2>The Report</h2><ul><li><a href="report/executive-summary.html"><span>Executive Summary</span></a></li><li><a href="report/Chapter1.html"><span>Read the report<small>Chapters 1–7</small></span></a></li><li><a href="report/integrated-report.html"><span>Integrated report<small>Single-volume edition</small></span></a></li><li><a href="report/strategic-dashboard.html"><span>Strategic dashboard</span></a></li><li><a href="report/Indexes.html"><span>Subject index</span></a></li></ul></div><div class="bc-group"><h2>Strategy</h2><ul><li><a href="roadmap.html"><span>Investment roadmap</span></a></li><li><a href="options.html"><span>Strategy formulation</span></a></li><li><a href="action-plan.html"><span>One-year action plan 2026</span></a></li><li><a href="strategy-map.html"><span>Strategy map</span></a></li><li><a href="dashboard.html"><span>MEL dashboard</span></a></li><li><a href="kpi.html"><span>KPIs and metrics</span></a></li><li><a href="ieb.html"><span>BEIE ecosystem framework</span></a></li><li><a href="actors-value-network.html"><span>Actors and value network</span></a></li></ul></div><div class="bc-group"><h2>Provinces</h2><ul><li><a href="basilan-outlook.html"><span>Basilan</span></a></li><li><a href="lanao-delsur-outlook.html"><span>Lanao del Sur</span></a></li><li><a href="lds-poa.html"><span>Lanao del Sur · programme of activities</span></a></li><li><a href="maguindanao-delnorte-outlook.html"><span>Maguindanao del Norte</span></a></li><li><a href="maguindanao-delsur-outlook.html"><span>Maguindanao del Sur</span></a></li><li><a href="sga-outlook.html"><span>Special Geographic Area</span></a></li><li><a href="tawi-tawi-outlook.html"><span>Tawi-Tawi</span></a></li><li><a href="tawi-tawi-validation-workshop.html"><span>Tawi-Tawi validation workshop</span></a></li></ul></div><div class="bc-group"><h2>Learn more</h2><ul><li><a href="resources.html"><span>Resource library</span></a></li><li><a href="slides.html"><span>Presentation slides</span></a></li><li><a href="student-guide.html"><span>BEIE student&#x27;s guide</span></a></li><li><a href="contact.html"><span>Contact us</span></a></li></ul></div></nav></details></div></header><!-- /bird-chrome:bar --><header class="page-header" role="banner">
-<div class="header-eyebrow">Legal &amp; Compliance</div>
-<h1>Privacy Policy</h1>
-<div class="subtitle">BIRD 2026–2035 Strategic Validation Survey</div>
-<p class="tagline">"Data trends do not determine destinies; execution does."</p>
-</header>
-
-<main class="page-container" id="mainContent">
-
-<div class="policy-card">
-
-<div class="policy-meta">
-<div class="meta-item">
-<div class="meta-label">Effective Date</div>
-<div class="meta-value">July 1, 2026</div>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Privacy Policy | BARMM Labour Market Readiness – MTIT</title>
+<meta name="description" content="How MTIT–BOI BARMM handles personal data on the BARMM Labour Market Readiness platform under the Data Privacy Act of 2012 (RA 10173): data collected, purposes, retention and your rights.">
+<meta name="keywords" content="BARMM privacy policy, MTIT data privacy, Data Privacy Act RA 10173, Bangsamoro labour market dashboard privacy">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://labor-market.mtit-barmm.com/public/privacy-policy">
+<meta name="theme-color" content="#0b3d2e"><meta name="application-name" content="BARMM Labour Market Readiness">
+<meta property="og:type" content="website"><meta property="og:site_name" content="BARMM Labour Market Readiness"><meta property="og:locale" content="en_PH">
+<meta property="og:title" content="Privacy Policy | BARMM Labour Market Readiness – MTIT"><meta property="og:description" content="How MTIT–BOI BARMM handles personal data on the BARMM Labour Market Readiness platform under the Data Privacy Act of 2012 (RA 10173): data collected, purposes, retention and your rights."><meta property="og:url" content="https://labor-market.mtit-barmm.com/public/privacy-policy"><meta property="og:image" content="https://labor-market.mtit-barmm.com/assets/mtit-icon-512.png"><meta property="og:image:alt" content="Official MTIT seal">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Privacy Policy | BARMM Labour Market Readiness – MTIT"><meta name="twitter:description" content="How MTIT–BOI BARMM handles personal data on the BARMM Labour Market Readiness platform under the Data Privacy Act of 2012 (RA 10173): data collected, purposes, retention and your rights."><meta name="twitter:image" content="https://labor-market.mtit-barmm.com/assets/mtit-icon-512.png">
+<link rel="manifest" href="../manifest.webmanifest"><link rel="icon" href="../assets/mtit-icon.svg" type="image/svg+xml"><link rel="icon" href="../assets/mtit-icon-192.png" sizes="192x192" type="image/png"><link rel="apple-touch-icon" href="../assets/mtit-icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@500;600;700&family=Roboto+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/public-pages.css">
+<script src="../assets/consent.js"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://labor-market.mtit-barmm.com/public/privacy-policy#webpage", "url": "https://labor-market.mtit-barmm.com/public/privacy-policy", "name": "Privacy Policy | BARMM Labour Market Readiness – MTIT", "description": "How MTIT–BOI BARMM handles personal data on the BARMM Labour Market Readiness platform under the Data Privacy Act of 2012 (RA 10173): data collected, purposes, retention and your rights.", "inLanguage": "en-PH", "dateModified": "2026-11-23", "isPartOf": {"@type": "WebSite", "@id": "https://labor-market.mtit-barmm.com/#website", "name": "BARMM Labour Market Readiness", "url": "https://labor-market.mtit-barmm.com/"}, "publisher": {"@id": "https://labor-market.mtit-barmm.com/#org"}}, {"@type": "GovernmentOrganization", "@id": "https://labor-market.mtit-barmm.com/#org", "name": "Ministry of Trade, Investments and Tourism (MTIT) – BARMM", "url": "https://mtit.bangsamoro.gov.ph", "logo": "https://labor-market.mtit-barmm.com/assets/mtit-icon-512.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Dashboard", "item": "https://labor-market.mtit-barmm.com/"}, {"@type": "ListItem", "position": 2, "name": "Privacy Policy", "item": "https://labor-market.mtit-barmm.com/public/privacy-policy"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<aside class="sidebar" id="sidebar" aria-label="Side panel">
+ <a class="brand" href="../index.html"><span class="brand-mark"><img src="../assets/MTIT-logo.webp" alt="Official Ministry of Trade, Investments and Tourism (MTIT) logo" width="46" height="46"></span><span><span class="brand-name">BARMM LABOUR<br>MARKET READINESS</span><small>Workforce intelligence platform</small></span></a>
+ <div class="nav-label">Workspace</div><nav class="nav" aria-label="Workspace">
+ <a href="../index.html#overview"><span aria-hidden="true">◫</span>Overview</a>
+ <a href="../index.html#labour"><span aria-hidden="true">▥</span>Labour Market</a>
+ <a href="../index.html#sectors"><span aria-hidden="true">◈</span>Sector &amp; Investment</a>
+ <a href="../index.html#provincial"><span aria-hidden="true">⌖</span>Provincial Profile</a>
+ <a href="../index.html#tvet"><span aria-hidden="true">▤</span>TVET &amp; Skills</a>
+ <a href="../index.html#sipp"><span aria-hidden="true">⬡</span>SIPP Workforce Map</a>
+ </nav>
+ <div class="nav-label">Data &amp; Administration</div><nav class="nav" aria-label="Data and administration">
+ <a href="../index.html#datasets"><span aria-hidden="true">▦</span>Data Explorer</a>
+ <a href="../index.html#projects"><span aria-hidden="true">＋</span>Project Register</a>
+ <a href="../index.html#settings"><span aria-hidden="true">⚙</span>Data &amp; Sources</a>
+ </nav>
+ <div class="nav-label">Support &amp; Policies</div><nav class="nav" aria-label="Support and policies">
+ <a href="contact.html"><span aria-hidden="true">✉</span>Contact Us</a>
+ <div class="nav-dropdown open">
+  <button class="nav-trigger" type="button" aria-expanded="true" aria-controls="policyMenu"><span aria-hidden="true">§</span>Policies<span class="caret" aria-hidden="true">▾</span></button>
+  <div class="nav-sub" id="policyMenu">
+   <a href="terms-of-service.html">Terms of Service</a>
+   <a href="privacy-policy.html" class="active" aria-current="page">Privacy Policy</a>
+   <a href="cookie-policy.html">Cookie Policy &amp; Settings</a>
+  </div>
+ </div>
+ </nav>
+ <div class="sidebar-foot">MTIT – Bureau of Investments<br>BARMM · Phase II Policy Support<br><span style="opacity:.7">© 2026 · </span><button type="button" data-cookie-settings>Cookie settings</button></div>
+</aside>
+<div class="main">
+ <header class="topbar"><div style="display:flex;align-items:center;gap:14px"><button class="icon-btn menu-btn" id="menuBtn" aria-controls="sidebar" aria-expanded="false" aria-label="Open side panel">☰</button><nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="../index.html">Dashboard</a></li><li aria-current="page">Privacy Policy</li></ol></nav></div><div class="top-actions"><a class="btn primary" href="../index.html#overview">◫ <span>Open dashboard</span></a></div></header>
+ <main class="content" id="main">
+  <div class="page-head"><div><div class="eyebrow">Policies · Data protection</div><h1 class="page-title">Privacy Policy</h1><div class="page-sub">What personal data the BARMM Labour Market Readiness platform processes, why, for how long, and how to exercise your rights under the Data Privacy Act of 2012.</div><div class="meta"><span class="pill gold">Last updated 23 November 2026</span><span class="pill">RA 10173 compliant</span><span class="pill">Version 2.0</span></div></div></div>
+  
+  <div class="doc-layout">
+   <nav class="card toc" aria-label="On this page"><h2 class="section-title">On this page</h2><ol><li><a href="#commitment">1. Our commitment</a></li><li><a href="#controller">2. Personal information controller</a></li><li><a href="#collect">3. Information we process</a></li><li><a href="#purposes">4. Purposes and lawful basis</a></li><li><a href="#processors">5. Service providers and international transfers</a></li><li><a href="#retention">6. Retention</a></li><li><a href="#security">7. Security</a></li><li><a href="#rights">8. Your rights</a></li><li><a href="#children">9. Children</a></li><li><a href="#changes">10. Changes to this policy</a></li></ol></nav>
+   <article class="card doc"><section id="commitment" aria-labelledby="commitment-h"><h2 id="commitment-h">1. Our commitment</h2><p>The Bureau of Investments of the Ministry of Trade, Investments and Tourism (MTIT–BOI), BARMM, respects your privacy. This Privacy Policy explains what personal data the BARMM Labour Market Readiness platform (the “Platform”) processes, why, and the rights you have under Republic Act No. 10173 (Data Privacy Act of 2012), its Implementing Rules and Regulations and issuances of the National Privacy Commission (NPC).</p><div class="notice"><b>In short:</b> you can use the dashboard without creating an account or giving us personal information. Dashboard data is a public statistical snapshot. Your Project Register records stay in your own browser. We only receive personal data if you contact us, and we use analytics only if you opt in.</div></section><section id="controller" aria-labelledby="controller-h"><h2 id="controller-h">2. Personal information controller</h2><div class="table-wrap"><table class="data-table"><tbody>
+<tr><th scope="row">Controller</th><td>Bureau of Investments (BOI), Ministry of Trade, Investments and Tourism (MTIT), Bangsamoro Autonomous Region in Muslim Mindanao</td></tr>
+<tr><th scope="row">Address</th><td>Bangsamoro Government Complex, Cotabato City 9600, BARMM, Philippines</td></tr>
+<tr><th scope="row">Data Protection Officer</th><td><a href="mailto:boi@bangsamoro.gov.ph">boi@bangsamoro.gov.ph</a> · Telephone (064) 557 2819</td></tr>
+<tr><th scope="row">Regulator</th><td>National Privacy Commission (NPC) — <a href="https://privacy.gov.ph" rel="noopener" target="_blank">privacy.gov.ph</a></td></tr>
+</tbody></table></div></section><section id="collect" aria-labelledby="collect-h"><h2 id="collect-h">3. Information we process</h2><div class="table-wrap"><table class="data-table"><thead><tr><th>Category</th><th>What</th><th>When</th><th>Where it is held</th></tr></thead><tbody>
+<tr><td>Contact inquiries</td><td>Name, email, organisation, stakeholder type, topic, province/area, message</td><td>Only when you submit the contact form</td><td>Netlify Forms (hosting provider) and MTIT–BOI mailboxes</td></tr>
+<tr><td>Project Register records</td><td>Project details you choose to enter</td><td>When you add a record</td><td>Your browser only (IndexedDB/localStorage); never sent to us</td></tr>
+<tr><td>Consent and preferences</td><td>Your cookie choice; optionally the last dashboard section viewed</td><td>When you make a choice</td><td>Your browser only (localStorage)</td></tr>
+<tr><td>Usage analytics (opt-in)</td><td>Pseudonymous identifiers, pages viewed, device and browser type, approximate location; IP anonymised</td><td>Only after you accept analytics</td><td>Google Analytics</td></tr>
+<tr><td>Technical logs</td><td>IP address, user agent, requested URL, time</td><td>Each visit, automatically</td><td>Hosting and content-delivery providers, for security and reliability</td></tr>
+</tbody></table></div><p>We do not ask for government-issued IDs, financial data, health data or other sensitive personal information. Please do not include such information in your messages.</p></section><section id="purposes" aria-labelledby="purposes-h"><h2 id="purposes-h">4. Purposes and lawful basis</h2><ul>
+<li><b>Responding to inquiries</b> — to answer, route or follow up your message. Basis: your consent and our public mandate (Sections 12(a) and 12(e), Data Privacy Act).</li>
+<li><b>Improving the Platform</b> — aggregate usage statistics to understand which evidence is most used. Basis: your consent, which you can withdraw at any time.</li>
+<li><b>Security and continuity</b> — protecting the Platform from abuse and keeping it available. Basis: legitimate interest and the performance of a public function.</li></ul><p>We do not sell, rent or trade personal data, and we do not use it for advertising or automated decisions that affect you.</p></section><section id="processors" aria-labelledby="processors-h"><h2 id="processors-h">5. Service providers and international transfers</h2><p>We rely on a small number of service providers that may process limited data on our behalf, some outside the Philippines:</p><ul>
+<li><b>Netlify</b> — website hosting, content delivery and contact-form storage;</li>
+<li><b>Google Fonts</b> — web typography (your IP address is visible to Google when fonts load);</li>
+<li><b>jsDelivr</b> — delivery of the open-source Chart.js charting library;</li>
+<li><b>Google Analytics</b> — usage measurement, <em>only</em> if you consent.</li></ul><p>Where data is transferred abroad, we rely on the provider’s contractual and security commitments, consistent with Section 21 of the Data Privacy Act on accountability for transfers.</p></section><section id="retention" aria-labelledby="retention-h"><h2 id="retention-h">6. Retention</h2><ul>
+<li>Contact inquiries: kept for up to two (2) years after the matter is closed, then deleted, unless a longer period is required by law or audit rules.</li>
+<li>Analytics data: retained for a maximum of fourteen (14) months.</li>
+<li>Consent records: kept in your browser for twelve (12) months, after which we ask again.</li>
+<li>Browser-stored Project Register and preferences: kept until you delete them.</li></ul></section><section id="security" aria-labelledby="security-h"><h2 id="security-h">7. Security</h2><p>The Platform is served only over HTTPS. Access to contact submissions is limited to authorised MTIT–BOI personnel. Reference data is read-only, and the Platform does not maintain user accounts or passwords. No system is perfectly secure; in the event of a personal data breach that meets the NPC notification threshold, we will notify the NPC and affected individuals as required by NPC Circular 16-03.</p></section><section id="rights" aria-labelledby="rights-h"><h2 id="rights-h">8. Your rights</h2><p>Under the Data Privacy Act you have the right to be informed, to access, to object, to erasure or blocking, to rectification, to data portability, to file a complaint and to be indemnified for damages. To exercise these rights, write to our Data Protection Officer at <a href="mailto:boi@bangsamoro.gov.ph">boi@bangsamoro.gov.ph</a> or use the <a href="contact.html">contact form</a> and choose “Privacy or data protection request”. We will respond within fifteen (15) working days. You can withdraw analytics or preference consent at any time via <button type="button" class="btn" data-cookie-settings style="padding:4px 10px;font-size:14px">Cookie settings</button>.</p><p>If you are not satisfied with our response, you may lodge a complaint with the National Privacy Commission at <a href="https://privacy.gov.ph" target="_blank" rel="noopener">privacy.gov.ph</a> or <a href="mailto:complaints@privacy.gov.ph">complaints@privacy.gov.ph</a>.</p></section><section id="children" aria-labelledby="children-h"><h2 id="children-h">9. Children</h2><p>The Platform is intended for policy-makers, practitioners, researchers and the general public. We do not knowingly collect personal data from children under 18 through the contact form. If you believe a child has sent us personal data, please contact us so we can delete it.</p></section><section id="changes" aria-labelledby="changes-h"><h2 id="changes-h">10. Changes to this policy</h2><p>We may update this Privacy Policy to reflect changes in the Platform or the law. The “Last updated” date shows the latest revision. Significant changes affecting consent will trigger a new cookie consent request.</p></section></article>
+  </div>
+ </main>
+ <footer class="site-foot"><span>© 2026 Ministry of Trade, Investments and Tourism – Bureau of Investments, BARMM</span><nav aria-label="Footer"><a href="../index.html">Dashboard</a><a href="contact.html">Contact Us</a><a href="terms-of-service.html">Terms of Service</a><a href="privacy-policy.html">Privacy Policy</a><a href="cookie-policy.html">Cookie Policy</a><button type="button" data-cookie-settings>Cookie settings</button></nav></footer>
 </div>
-<div class="meta-item">
-<div class="meta-label">Last Updated</div>
-<div class="meta-value">July 1, 2026</div>
-</div>
-<div class="meta-item">
-<div class="meta-label">Version</div>
-<div class="meta-value">1.0</div>
-</div>
-<div class="meta-item">
-<div class="meta-label">Jurisdiction</div>
-<div class="meta-value">BARMM, Philippines</div>
-</div>
-</div>
-
-<!-- SECTION 1 -->
-<section class="policy-section" id="intro">
-<h2><span class="section-num">1</span> Introduction &amp; Commitment</h2>
-<p>The <strong>Bureau of Investments – Ministry of Trade, Investments and Tourism (BOI-MTIT)</strong> of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) ("we," "us," or "our") is committed to protecting the privacy and confidentiality of all participants in the <strong>Bangsamoro Investment Roadmap Development (BIRD) 2026–2035 Strategic Validation Survey</strong>.</p>
-<p>This Privacy Policy explains how we collect, use, store, and protect your personal information when you participate in the validation survey hosted at <em>validation-survey.html</em> and related BIRD 2026–2035 digital tools. By participating in the survey, you acknowledge that you have read and understood this policy.</p>
-
-<div class="highlight-box">
-<p><strong>Our Promise:</strong> Your insights shape the Bangsamoro Investment Roadmap. We treat every response with the utmost respect, and your personal data will never be sold, rented, or shared with third parties for commercial purposes.</p>
-</div>
-</section>
-
-<!-- SECTION 2 -->
-<section class="policy-section" id="data-controller">
-<h2><span class="section-num">2</span> Data Controller</h2>
-<p>The data controller responsible for your personal information under this policy is:</p>
-<div class="contact-box">
-<h4>Bureau of Investments – MTIT, BARMM</h4>
-<p><strong>Address:</strong> Bangsamoro Government Complex, Cotabato City, BARMM, Philippines</p>
-<p><strong>Email:</strong> <a href="mailto:boi@bangsamoro.gov.ph">boi@bangsamoro.gov.ph</a></p>
-<p><strong>Telephone:</strong> (064) 557 2819</p>
-<p><strong>Mobile:</strong> 0917.834.333</p>
-</div>
-</section>
-
-<!-- SECTION 3 -->
-<section class="policy-section" id="data-collected">
-<h2><span class="section-num">3</span> Information We Collect</h2>
-<p>We collect only the information necessary to validate the BIRD 2026–2035 roadmap and ensure representative participation across the Bangsamoro Economic and Investment Ecosystem (BEIE). The data collected falls into two categories:</p>
-
-<h3>3.1 Personal Identification Data (Voluntary)</h3>
-<table class="data-table">
-<thead>
-<tr>
-<th>Data Element</th>
-<th>Purpose</th>
-<th>Required</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Full Name &amp; Professional Title</td>
-<td>Stakeholder attribution and demographic analysis</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Organization / Agency</td>
-<td>Sectoral representation analysis</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>BEIE Sector Alignment</td>
-<td>Cluster-based response analysis</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Geographic Focus / Province</td>
-<td>Provincial equity and representation tracking</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Email Address</td>
-<td>To send the final BIRD Roadmap report (optional)</td>
-<td>No</td>
-</tr>
-</tbody>
-</table>
-
-<h3>3.2 Survey Response Data</h3>
-<p>Your responses to the validation questions, including but not limited to:</p>
-<ul>
-<li>SWOT factor ratings (Impact and Likelihood scores on 1–5 scales)</li>
-<li>Systems Archetype validation scores</li>
-<li>Leverage Point rankings (Meadows' Hierarchy)</li>
-<li>Strategic Options evaluation (1–10 scales)</li>
-<li>Phased Implementation feasibility ratings</li>
-<li>Open-text responses on Mental Models and strategic insights</li>
-</ul>
-
-<h3>3.3 Technical Data (Automatic)</h3>
-<ul>
-<li>Timestamp of submission</li>
-<li>Browser type and device category (anonymized)</li>
-<li>Local storage entries (to preserve your editing progress within the survey)</li>
-</ul>
-
-<div class="highlight-box">
-<p><strong>We do NOT collect:</strong> Government-issued IDs, financial information, health data, biometric data, precise geolocation, or any sensitive personal information beyond what is listed above.</p>
-</div>
-</section>
-
-<!-- SECTION 4 -->
-<section class="policy-section" id="purpose">
-<h2><span class="section-num">4</span> Purpose of Data Collection</h2>
-<p>Your data is collected and used <strong>exclusively</strong> for the following purposes related to the BIRD 2026–2035 initiative:</p>
-<ol>
-<li><strong>Strategic Validation:</strong> To validate the SWOT analysis, Causal Loop Diagrams (CLDs), Systems Archetypes, Leverage Points, and Strategic Options of the Bangsamoro Investment Roadmap.</li>
-<li><strong>Strat Planner Pro Modeling:</strong> To feed quantitative data into the Strat Planner Pro mathematical framework, including the calculation of:
-<ul>
-<li>Resilience Index (RI) for Strengths and Opportunities</li>
-<li>Risk Scores for Weaknesses</li>
-<li>Vulnerability Index (VI) for Threats</li>
-</ul>
-</li>
-<li><strong>Representative Analysis:</strong> To ensure all BEIE clusters (Foundations, Transformers, Enablers, Connectors, Financiers) and provinces are proportionally represented in the validation.</li>
-<li><strong>Reporting:</strong> To produce aggregated, anonymized findings for the final BIRD 2026–2035 Investment Roadmap document and the Strat Planner Pro Executive Summary.</li>
-<li><strong>Communication:</strong> To send you the final BIRD Roadmap document (only if you provide your email address and consent).</li>
-</ol>
-</section>
-
-<!-- SECTION 5 -->
-<section class="policy-section" id="legal-basis">
-<h2><span class="section-num">5</span> Legal Basis for Processing</h2>
-<p>We process your personal data in accordance with the <strong>Republic Act No. 10173 (Data Privacy Act of 2012)</strong> of the Philippines and the <strong>Bangsamoro Organic Law (Republic Act No. 11054)</strong>, based on the following legal grounds:</p>
-<ul>
-<li><strong>Explicit Consent:</strong> You provide informed consent via the survey's Module 0 before any data is collected.</li>
-<li><strong>Public Interest / Official Authority:</strong> The BIRD 2026–2035 roadmap is an official planning instrument of the BARMM Government, mandated under the 2nd Bangsamoro Development Plan (BDP) 2023–2028.</li>
-<li><strong>Legitimate Interest:</strong> BOI-MTIT has a legitimate interest in producing evidence-based investment policy for the Bangsamoro region.</li>
-</ul>
-</section>
-
-<!-- SECTION 6 -->
-<section class="policy-section" id="storage">
-<h2><span class="section-num">6</span> Data Storage &amp; Security</h2>
-
-<h3>6.1 Where Your Data Is Stored</h3>
-<p>Survey responses are transmitted securely and stored as structured JSON files within the official <strong>BIRD-2026-2035 GitHub repository</strong> maintained by BOI-MTIT. Each response is saved as an individual file in the <code>/data/responses/</code> directory with a unique timestamp identifier.</p>
-
-<h3>6.2 Security Measures</h3>
-<ul>
-<li><strong>Encryption in Transit:</strong> All data is transmitted over HTTPS/TLS encrypted connections.</li>
-<li><strong>Access Control:</strong> The GitHub repository is maintained under the official <em>asilvainnovations</em> organization account with restricted write access to authorized BOI-MTIT personnel only.</li>
-<li><strong>Authentication:</strong> Backend submission uses authenticated GitHub Personal Access Tokens (PAT) with least-privilege scope.</li>
-<li><strong>Integrity:</strong> Each response file is immutable once committed to the repository, ensuring data integrity for audit purposes.</li>
-</ul>
-
-<h3>6.3 Retention Period</h3>
-<p>Your data will be retained for the duration of the BIRD 2026–2035 roadmap implementation cycle, which concludes on <strong>December 31, 2035</strong>, after which it will be archived or anonymized in accordance with BARMM government records retention policies.</p>
-</section>
-
-<!-- SECTION 7 -->
-<section class="policy-section" id="sharing">
-<h2><span class="section-num">7</span> Data Sharing &amp; Disclosure</h2>
-
-<h3>7.1 Aggregated Reporting</h3>
-<p>Survey results will be published in <strong>aggregated and anonymized form only</strong> within the BIRD 2026–2035 Investment Roadmap document, the Strat Planner Pro Executive Summary, and related BOI-MTIT publications. No individual response will ever be attributed to a specific participant or organization in any public report.</p>
-
-<h3>7.2 Authorized Recipients</h3>
-<p>Your data may be shared only with:</p>
-<ul>
-<li>Authorized BOI-MTIT personnel involved in the BIRD roadmap development</li>
-<li>The Bangsamoro Planning and Development Authority (BPDA) for integrated planning purposes</li>
-<li>Accredited third-party auditors for data integrity validation</li>
-<li>Development partners (e.g., UNDP, ADB, IsDB) only in anonymized, aggregated form</li>
-</ul>
-
-<h3>7.3 No Commercial Sharing</h3>
-<p><strong>We will never sell, rent, trade, or share your personal information with any third party for commercial, marketing, or political purposes.</strong></p>
-
-<h3>7.4 Legal Disclosure</h3>
-<p>We may disclose your information only if required by law, court order, or competent BARMM or Philippine government authority, and only to the minimum extent necessary.</p>
-</section>
-
-<!-- SECTION 8 -->
-<section class="policy-section" id="rights">
-<h2><span class="section-num">8</span> Your Rights Under the Data Privacy Act</h2>
-<p>Under Republic Act No. 10173 (Data Privacy Act of 2012), you have the following rights regarding your personal information:</p>
-<ul>
-<li><strong>Right to Be Informed:</strong> You have the right to know how your data is being processed (this policy fulfills that right).</li>
-<li><strong>Right to Access:</strong> You may request a copy of the personal data we hold about you.</li>
-<li><strong>Right to Rectification:</strong> You may request correction of any inaccurate or incomplete data.</li>
-<li><strong>Right to Erasure / Blocking:</strong> You may request deletion or blocking of your data, subject to legal retention requirements.</li>
-<li><strong>Right to Object:</strong> You may object to the processing of your data at any time.</li>
-<li><strong>Right to Data Portability:</strong> You may request your data in a structured, commonly used format.</li>
-<li><strong>Right to Lodge a Complaint:</strong> You may file a complaint with the National Privacy Commission (NPC) of the Philippines.</li>
-</ul>
-
-<div class="highlight-box">
-<p><strong>To exercise any of these rights,</strong> please contact our Data Protection Officer at <a href="mailto:boi@bangsamoro.gov.ph" style="color:var(--gold-light);">boi@bangsamoro.gov.ph</a>. We will respond within fifteen (15) working days.</p>
-</div>
-</section>
-
-<!-- SECTION 9 -->
-<section class="policy-section" id="cookies">
-<h2><span class="section-num">9</span> Cookies &amp; Local Storage</h2>
-<p>The BIRD Validation Survey uses <strong>browser local storage</strong> (not traditional cookies) for the following purposes:</p>
-<ul>
-<li><strong>Progress Preservation:</strong> To save your editing progress within the survey so you do not lose work if your browser is accidentally closed.</li>
-<li><strong>State Management:</strong> To remember which sections of the roadmap you have expanded.</li>
-</ul>
-<p>This data is stored <strong>only on your device</strong>, is never transmitted to our servers, and can be cleared at any time through your browser settings. We do not use tracking cookies, advertising pixels, or third-party analytics services.</p>
-</section>
-
-<!-- SECTION 10 -->
-<section class="policy-section" id="children">
-<h2><span class="section-num">10</span> Children's Privacy</h2>
-<p>The BIRD Validation Survey is intended for <strong>qualified stakeholders, policymakers, investors, and development professionals</strong> aged 18 years and older. We do not knowingly collect personal information from children under 18. If you believe we have inadvertently collected such information, please contact us immediately and we will delete it.</p>
-</section>
-
-<!-- SECTION 11 -->
-<section class="policy-section" id="changes">
-<h2><span class="section-num">11</span> Changes to This Policy</h2>
-<p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors. Any material changes will be posted on this page with an updated "Last Updated" date. We encourage you to review this policy periodically.</p>
-</section>
-
-<!-- SECTION 12 -->
-<section class="policy-section" id="contact">
-<h2><span class="section-num">12</span> Contact &amp; Complaints</h2>
-<p>If you have questions, concerns, or complaints about this Privacy Policy or our data practices, please contact us:</p>
-
-<div class="contact-box">
-<h4>Data Protection Officer – BOI-MTIT, BARMM</h4>
-<p><strong>Email:</strong> <a href="mailto:boi@bangsamoro.gov.ph">boi@bangsamoro.gov.ph</a></p>
-<p><strong>Telephone:</strong> (064) 557 2819</p>
-<p><strong>Mobile:</strong> 0917.834.333</p>
-<p><strong>Address:</strong> Bangsamoro Government Complex, Cotabato City, BARMM, Philippines</p>
-</div>
-
-<p style="margin-top:1.5rem;">For complaints that cannot be resolved directly with us, you may contact the <strong>National Privacy Commission (NPC)</strong> of the Philippines:</p>
-<div class="contact-box">
-<h4>National Privacy Commission</h4>
-<p><strong>Website:</strong> <a href="https://privacy.gov.ph">privacy.gov.ph</a></p>
-<p><strong>Email:</strong> <a href="mailto:complaints@privacy.gov.ph">complaints@privacy.gov.ph</a></p>
-</div>
-</section>
-
-<!-- SECTION 13 -->
-<section class="policy-section" id="consent">
-<h2><span class="section-num">13</span> Your Consent</h2>
-<p>By clicking <strong>"Yes, I Consent"</strong> on Module 0 of the BIRD 2026–2035 Validation Survey, you acknowledge that:</p>
-<ol>
-<li>You have read and understood this Privacy Policy;</li>
-<li>You voluntarily consent to the collection and processing of your data as described herein;</li>
-<li>You understand that your responses will be aggregated and anonymized in all public reporting;</li>
-<li>You may withdraw your consent at any time by contacting the Data Protection Officer.</li>
-</ol>
-
-<a href="/" class="back-top">← Back to BIRD</a>
-</section>
-
-</div>
-
-</main>
-
-
-
-<script>
-window.addEventListener('scroll', () => {
-document.getElementById('siteNav').classList.toggle('scrolled', window.scrollY > 40);
-}, { passive: true });
-</script>
-
-
-
-
-<!-- bird-chrome:footer --><footer class="bc-scope bc-footer" role="contentinfo"><div class="bc-fin"><div class="bc-fgrid"><div class="bc-fbrand"><a class="bc-brand" href="https://bird-boi.mtit-barmm.com/" aria-label="BIRD 2026–2035 Investment Roadmap — home"><img class="bc-seal" src="assets/MTIT-logo-circle.webp" width="38" height="38" alt="" decoding="async" onerror="this.onerror=null;this.src='assets/MTIT-logo-circle.png'"><span class="bc-word"><strong>BIRD <span>2026–2035</span></strong><small>MTIT · BARMM</small></span></a><p>Bangsamoro Investment Roadmap Development 2026–2035. Prepared for the Bureau of Investments, Ministry of Trade, Investments and Tourism, BARMM.</p><a class="bc-cta" href="https://bird-boi.mtit-barmm.com/platform">Open the Platform</a></div><div class="bc-fcol"><h2>Platform</h2><ul><li><a href="https://bird-boi.mtit-barmm.com/platform">BIRD Strategic Planning Platform</a></li><li><a href="survey-dashboard.html">Validation survey results</a></li><li><a href="user-manual.html">Platform user manual</a></li><li><a href="resources.html">Resource library</a></li><li><a href="contact.html">Contact us</a></li></ul></div><div class="bc-fcol"><h2>The Report</h2><ul><li><a href="report/executive-summary.html">Executive Summary</a></li><li><a href="report/Chapter1.html">Read the report</a></li><li><a href="report/integrated-report.html">Integrated report</a></li><li><a href="report/strategic-dashboard.html">Strategic dashboard</a></li><li><a href="report/Indexes.html">Subject index</a></li></ul></div><div class="bc-fcol"><h2>Strategy</h2><ul><li><a href="roadmap.html">Investment roadmap</a></li><li><a href="options.html">Strategy formulation</a></li><li><a href="action-plan.html">One-year action plan 2026</a></li><li><a href="strategy-map.html">Strategy map</a></li><li><a href="dashboard.html">MEL dashboard</a></li><li><a href="kpi.html">KPIs and metrics</a></li></ul></div><div class="bc-fcol"><h2>Provinces</h2><ul><li><a href="basilan-outlook.html">Basilan</a></li><li><a href="lanao-delsur-outlook.html">Lanao del Sur</a></li><li><a href="lds-poa.html">Lanao del Sur · programme of activities</a></li><li><a href="maguindanao-delnorte-outlook.html">Maguindanao del Norte</a></li><li><a href="maguindanao-delsur-outlook.html">Maguindanao del Sur</a></li><li><a href="sga-outlook.html">Special Geographic Area</a></li><li><a href="tawi-tawi-outlook.html">Tawi-Tawi</a></li></ul></div></div><div class="bc-fbottom"><p>© 2026 Bangsamoro Autonomous Region in Muslim Mindanao · MTIT. Developed by <a href="https://asilvainnovations.com" target="_blank" rel="noopener noreferrer">ASilva Innovations</a>.</p><div class="bc-flegal"><a href="privacy-policy.html">Privacy</a><a href="cookie-policy.html">Cookies</a><a href="terms-of-service.html">Terms</a></div></div></div></footer><!-- /bird-chrome:footer --></body>
+<script src="../assets/public-pages.js" defer></script>
+</body>
 </html>

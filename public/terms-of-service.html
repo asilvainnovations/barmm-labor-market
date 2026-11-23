@@ -1,563 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2CNG7D15Q7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2CNG7D15Q7');
-</script>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-<meta name="theme-color" content="#022c22">
-<meta name="description" content="Terms of Service – BIRD 2026-2035 Strategic Validation Survey | BARMM MTIT">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<title>Terms of Service | BIRD 2026–2035 Validation Survey</title>
-<style>
-:root{
---primary-green:#064e3b;--dark-green:#022c22;--mid-green:#065f46;
---light-green:#6ee7b7;--cream:#ecfdf5;--white:#ffffff;
---text-light:#ffffff;--text-muted:#64748b;
---gold:#C9A84C;--gold-light:#E8C560;--gold-dark:#8B6C28;--gold-pale:#fdf6e3;
---gold-border:rgba(201,168,76,0.32);--gold-border-strong:rgba(201,168,76,0.55);
---gold-glow:rgba(201,168,76,0.20);
---gold-grad:linear-gradient(135deg,#7a5c1e 0%,#c9a84c 35%,#e8c560 50%,#c9a84c 65%,#7a5c1e 100%);
---focus-ring:0 0 0 3px rgba(201,168,76,0.5);
---touch-target:44px;
-}
-@media (prefers-reduced-motion: reduce) {
-*, *::before, *::after {
-animation-duration: 0.01ms !important;
-transition-duration: 0.01ms !important;
-scroll-behavior: auto !important;
-}
-}
-* { margin:0; padding:0; box-sizing:border-box; }
-html { scroll-behavior:smooth; font-size:16px; }
-body {
-font-family:'DM Sans',sans-serif;
-background:linear-gradient(160deg,#011a12 0%,#022c22 45%,#0a1628 100%);
-min-height:100vh;
-color:var(--cream);
-background-attachment:fixed;
-overflow-x:hidden;
-line-height:1.6;
--webkit-font-smoothing:antialiased;
-}
-.skip-link {
-position:absolute;
-top:-40px;
-left:0;
-background:var(--gold);
-color:var(--dark-green);
-padding:8px;
-text-decoration:none;
-z-index:9999;
-font-weight:bold;
-border-radius:0 0 4px 0;
-}
-.skip-link:focus { top:0; }
-/* NAV */
-.site-nav {
-background:rgba(2,44,34,.97);
-backdrop-filter:blur(18px);
-position:sticky;
-top:0;
-width:100%;
-z-index:200;
-border-bottom:2px solid var(--gold-border);
-transition:box-shadow .4s;
-}
-.site-nav.scrolled { box-shadow:0 4px 30px rgba(0,0,0,.5); }
-.nav-inner {
-max-width:1400px;
-margin:0 auto;
-padding:.75rem 1rem;
-display:flex;
-justify-content:space-between;
-align-items:center;
-gap:1rem;
-min-height:var(--touch-target);
-}
-.nav-logo img { height:40px; width:auto; object-fit:contain; display:block; }
-.nav-links-list {
-display:flex;
-flex-direction:row;
-gap:1.5rem;
-padding:0;
-background:transparent;
-border:none;
-list-style:none;
-}
-.nav-links-list a {
-color:var(--light-green);
-text-decoration:none;
-font-size:.82rem;
-font-weight:500;
-letter-spacing:.03em;
-position:relative;
-transition:color .3s;
-padding:.25rem 0;
-white-space:nowrap;
-}
-.nav-links-list a:hover,
-.nav-links-list a:focus {
-color:var(--gold);
-background:none;
-outline:none;
-}
-.nav-links-list a::after {
-content:'';
-position:absolute;
-bottom:-3px;
-left:0;
-width:0;
-height:2px;
-background:var(--gold);
-transition:width .3s;
-}
-.nav-links-list a:hover::after,
-.nav-links-list a:focus::after { width:100%; }
-.nav-logo img { height:52px; }
-.nav-inner { padding:.55rem 2rem; }
-/* PAGE HEADER */
-.page-header {
-text-align:center;
-padding:3.5rem 2rem 2rem;
-position:relative;
-}
-.page-header::before {
-content:'';
-position:absolute;
-top:0;
-left:50%;
-transform:translateX(-50%);
-width:220px;
-height:4px;
-background:var(--gold-grad);
-border-radius:2px;
-}
-.page-header::after {
-content:'';
-position:absolute;
-inset:0;
-background:radial-gradient(ellipse at 50% 0%,rgba(201,168,76,.06) 0%,transparent 65%);
-pointer-events:none;
-}
-.header-eyebrow {
-display:inline-block;
-background:rgba(201,168,76,.10);
-border:1px solid var(--gold-border-strong);
-color:var(--gold);
-padding:.35rem 1.25rem;
-border-radius:2rem;
-font-size:.72rem;
-font-weight:700;
-letter-spacing:.12em;
-text-transform:uppercase;
-margin-bottom:1rem;
-}
-.page-header h1 {
-font-family:'Cinzel',serif;
-font-size:clamp(1.8rem,5vw,3rem);
-font-weight:700;
-background:var(--gold-grad);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
-background-clip:text;
-line-height:1.2;
-margin-bottom:.5rem;
-}
-.page-header .subtitle {
-font-size:1.15rem;
-color:var(--light-green);
-font-weight:600;
-margin-bottom:.4rem;
-font-family:'Cinzel',serif;
-}
-.page-header .tagline {
-font-size:.95rem;
-color:rgba(255,255,255,.55);
-font-style:italic;
-letter-spacing:.02em;
-}
-/* MAIN CONTAINER */
-.page-container {
-max-width:1000px;
-margin:0 auto;
-padding:0 2rem 4rem;
-}
-/* POLICY CARD */
-.policy-card {
-background:rgba(2,44,34,.55);
-border:1px solid var(--gold-border);
-border-radius:1rem;
-padding:2rem;
-margin-bottom:2rem;
-position:relative;
-overflow:hidden;
-backdrop-filter:blur(10px);
-box-shadow:0 8px 30px rgba(0,0,0,.3);
-}
-.policy-card::before {
-content:'';
-position:absolute;
-top:0;
-left:0;
-right:0;
-height:3px;
-background:var(--gold-grad);
-border-radius:1rem 1rem 0 0;
-}
-.policy-meta {
-display:flex;
-flex-wrap:wrap;
-gap:1rem;
-margin-bottom:1.5rem;
-padding-bottom:1.5rem;
-border-bottom:1px solid var(--gold-border);
-}
-.meta-item {
-flex:1;
-min-width:200px;
-}
-.meta-label {
-font-size:.72rem;
-color:var(--gold);
-text-transform:uppercase;
-letter-spacing:.08em;
-font-weight:700;
-margin-bottom:.25rem;
-}
-.meta-value {
-font-size:.88rem;
-color:var(--cream);
-line-height:1.5;
-}
-.policy-section {
-margin-bottom:2rem;
-}
-.policy-section:last-child {
-margin-bottom:0;
-}
-.policy-section h2 {
-font-family:'Cinzel',serif;
-color:var(--gold);
-font-size:1.2rem;
-font-weight:700;
-margin-bottom:1rem;
-padding-bottom:.5rem;
-border-bottom:1px solid var(--gold-border);
-display:flex;
-align-items:center;
-gap:.6rem;
-}
-.policy-section h2 .section-num {
-display:inline-flex;
-align-items:center;
-justify-content:center;
-width:28px;
-height:28px;
-background:var(--gold-grad);
-color:var(--dark-green);
-border-radius:50%;
-font-size:.85rem;
-font-weight:900;
-font-family:'DM Sans',sans-serif;
-flex-shrink:0;
-}
-.policy-section h3 {
-font-family:'Cinzel',serif;
-color:var(--light-green);
-font-size:1rem;
-font-weight:700;
-margin:1.2rem 0 .6rem;
-}
-.policy-section p {
-color:rgba(236,253,245,.85);
-font-size:.92rem;
-line-height:1.7;
-margin-bottom:.8rem;
-}
-.policy-section ul, .policy-section ol {
-color:rgba(236,253,245,.85);
-font-size:.92rem;
-line-height:1.7;
-margin:0 0 1rem 1.5rem;
-}
-.policy-section li {
-margin-bottom:.5rem;
-}
-.policy-section li::marker {
-color:var(--gold);
-}
-.policy-section strong {
-color:var(--gold);
-font-weight:600;
-}
-.policy-section em {
-color:var(--light-green);
-font-style:italic;
-}
-/* HIGHLIGHT BOX */
-.highlight-box {
-background:rgba(201,168,76,.08);
-border-left:4px solid var(--gold);
-padding:1rem 1.2rem;
-border-radius:0 .6rem .6rem 0;
-margin:1rem 0;
-}
-.highlight-box p {
-margin:0;
-font-size:.88rem;
-color:rgba(236,253,245,.9);
-}
-.highlight-box strong {
-color:var(--gold);
-}
-/* CONTACT BOX */
-.contact-box {
-background:linear-gradient(135deg,rgba(6,78,59,.4) 0%,rgba(6,95,70,.25) 100%);
-border:1px solid var(--gold-border-strong);
-border-radius:.75rem;
-padding:1.5rem;
-margin-top:1rem;
-}
-.contact-box h4 {
-font-family:'Cinzel',serif;
-color:var(--gold);
-font-size:1rem;
-margin-bottom:.75rem;
-}
-.contact-box p {
-font-size:.88rem;
-color:var(--cream);
-margin-bottom:.4rem;
-}
-.contact-box a {
-color:var(--gold-light);
-text-decoration:none;
-border-bottom:1px dotted var(--gold-border);
-transition:color .3s;
-}
-.contact-box a:hover {
-color:var(--gold);
-border-bottom-color:var(--gold);
-}
-/* FOOTER */
-footer {
-text-align:center;
-padding:2rem 1rem;
-border-top:1px solid var(--gold-border);
-margin-top:2rem;
-}
-footer p {
-font-size:.75rem;
-color:rgba(255,255,255,.3);
-margin-top:.3rem;
-}
-footer .gold-text {
-color:var(--gold);
-}
-/* BACK TO TOP */
-.back-top {
-display:inline-block;
-margin-top:1.5rem;
-padding:.6rem 1.2rem;
-background:transparent;
-border:1px solid var(--gold-border);
-color:var(--gold);
-border-radius:2rem;
-text-decoration:none;
-font-size:.82rem;
-font-weight:600;
-transition:all .3s;
-}
-.back-top:hover {
-background:rgba(201,168,76,.1);
-border-color:var(--gold);
-transform:translateY(-2px);
-}
-/* RESPONSIVE */
-@media (max-width: 640px) {
-.page-container { padding:0 1rem 3rem; }
-.policy-card { padding:1.5rem; }
-.policy-section h2 { font-size:1.05rem; }
-.nav-links-list { display:none; }
-}
-/* FOCUS */
-:focus-visible {
-outline:2px solid var(--gold);
-outline-offset:2px;
-}
-</style>
-<base target="_blank">
-<style id="mtit-seal">
-/* Shared MTIT seal: one circular treatment on every page (matches the SPA's <MTITLogo/>). */
-img.mtit-seal{width:52px;height:52px;max-width:none;border-radius:50%;object-fit:contain;border:2px solid rgba(201,168,76,.32);background:#022c22;display:block;flex-shrink:0}
-img.mtit-seal.mtit-seal--sm{width:44px;height:44px}
-</style>
-
-
-<!-- bird-chrome:head --><link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="assets/MTIT-logo-192.png"><link rel="icon" type="image/png" href="assets/MTIT-logo-192.png"><link rel="stylesheet" href="assets/site-chrome.css"><script defer src="assets/site-chrome.js"></script><!-- /bird-chrome:head --></head>
-<body class="bc-on">
-<a href="#mainContent" class="skip-link">Skip to main content</a><!-- bird-chrome:stub --><div hidden aria-hidden="true" data-legacy-stub><div id="siteNav"></div></div><!-- /bird-chrome:stub --><!-- bird-chrome:bar --><header class="bc-scope bc-bar" role="banner"><div class="bc-in"><a class="bc-brand" href="https://bird-boi.mtit-barmm.com/" aria-label="BIRD 2026–2035 Investment Roadmap — home"><img class="bc-seal" src="assets/MTIT-logo-circle.webp" width="38" height="38" alt="" decoding="async" onerror="this.onerror=null;this.src='assets/MTIT-logo-circle.png'"><span class="bc-word"><strong>BIRD <span>2026–2035</span></strong><small>MTIT · BARMM</small></span></a><nav class="bc-primary" aria-label="Main"><a href="report/executive-summary.html">Report</a><a href="roadmap.html">Roadmap</a><a href="dashboard.html">Dashboard</a><a href="kpi.html">KPIs</a><a href="ieb.html">Ecosystem</a><a href="resources.html">Resources</a></nav><a class="bc-cta" href="https://bird-boi.mtit-barmm.com/platform">Open the Platform</a><details class="bc-menu"><summary aria-label="Open site menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span>Menu</span></summary><nav class="bc-panel" aria-label="Site menu"><div class="bc-group"><h2>Platform</h2><ul><li><a href="https://bird-boi.mtit-barmm.com/platform"><span>BIRD Strategic Planning Platform<small>SWOT → Systems → Strategy → BSC → PAPs → MEL</small></span></a></li><li><a href="survey-dashboard.html"><span>Validation survey results<small>Closed · n = 76</small></span></a></li><li><a href="user-manual.html"><span>Platform user manual</span></a></li></ul></div><div class="bc-group"><h2>The Report</h2><ul><li><a href="report/executive-summary.html"><span>Executive Summary</span></a></li><li><a href="report/Chapter1.html"><span>Read the report<small>Chapters 1–7</small></span></a></li><li><a href="report/integrated-report.html"><span>Integrated report<small>Single-volume edition</small></span></a></li><li><a href="report/strategic-dashboard.html"><span>Strategic dashboard</span></a></li><li><a href="report/Indexes.html"><span>Subject index</span></a></li></ul></div><div class="bc-group"><h2>Strategy</h2><ul><li><a href="roadmap.html"><span>Investment roadmap</span></a></li><li><a href="options.html"><span>Strategy formulation</span></a></li><li><a href="action-plan.html"><span>One-year action plan 2026</span></a></li><li><a href="strategy-map.html"><span>Strategy map</span></a></li><li><a href="dashboard.html"><span>MEL dashboard</span></a></li><li><a href="kpi.html"><span>KPIs and metrics</span></a></li><li><a href="ieb.html"><span>BEIE ecosystem framework</span></a></li><li><a href="actors-value-network.html"><span>Actors and value network</span></a></li></ul></div><div class="bc-group"><h2>Provinces</h2><ul><li><a href="basilan-outlook.html"><span>Basilan</span></a></li><li><a href="lanao-delsur-outlook.html"><span>Lanao del Sur</span></a></li><li><a href="lds-poa.html"><span>Lanao del Sur · programme of activities</span></a></li><li><a href="maguindanao-delnorte-outlook.html"><span>Maguindanao del Norte</span></a></li><li><a href="maguindanao-delsur-outlook.html"><span>Maguindanao del Sur</span></a></li><li><a href="sga-outlook.html"><span>Special Geographic Area</span></a></li><li><a href="tawi-tawi-outlook.html"><span>Tawi-Tawi</span></a></li><li><a href="tawi-tawi-validation-workshop.html"><span>Tawi-Tawi validation workshop</span></a></li></ul></div><div class="bc-group"><h2>Learn more</h2><ul><li><a href="resources.html"><span>Resource library</span></a></li><li><a href="slides.html"><span>Presentation slides</span></a></li><li><a href="student-guide.html"><span>BEIE student&#x27;s guide</span></a></li><li><a href="contact.html"><span>Contact us</span></a></li></ul></div></nav></details></div></header><!-- /bird-chrome:bar --><header class="page-header" role="banner">
-<div class="header-eyebrow">Legal &amp; Compliance</div>
-<h1>Terms of Service</h1>
-<div class="subtitle">BIRD 2026–2035 Strategic Validation Survey</div>
-<p class="tagline">"Data trends do not determine destinies; execution does."</p>
-</header>
-
-<main class="page-container" id="mainContent">
-
-<div class="policy-card">
-
-<div class="policy-meta">
-<div class="meta-item">
-<div class="meta-label">Effective Date</div>
-<div class="meta-value">July 1, 2026</div>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Terms of Service | BARMM Labour Market Readiness – MTIT</title>
+<meta name="description" content="Terms of Service for the BARMM Labour Market Readiness platform by MTIT–BOI: acceptable use, data interpretation safeguards, attribution and liability.">
+<meta name="keywords" content="BARMM labour market terms of service, MTIT terms, Bangsamoro dashboard terms of use">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://labor-market.mtit-barmm.com/public/terms-of-service">
+<meta name="theme-color" content="#0b3d2e"><meta name="application-name" content="BARMM Labour Market Readiness">
+<meta property="og:type" content="website"><meta property="og:site_name" content="BARMM Labour Market Readiness"><meta property="og:locale" content="en_PH">
+<meta property="og:title" content="Terms of Service | BARMM Labour Market Readiness – MTIT"><meta property="og:description" content="Terms of Service for the BARMM Labour Market Readiness platform by MTIT–BOI: acceptable use, data interpretation safeguards, attribution and liability."><meta property="og:url" content="https://labor-market.mtit-barmm.com/public/terms-of-service"><meta property="og:image" content="https://labor-market.mtit-barmm.com/assets/mtit-icon-512.png"><meta property="og:image:alt" content="Official MTIT seal">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Terms of Service | BARMM Labour Market Readiness – MTIT"><meta name="twitter:description" content="Terms of Service for the BARMM Labour Market Readiness platform by MTIT–BOI: acceptable use, data interpretation safeguards, attribution and liability."><meta name="twitter:image" content="https://labor-market.mtit-barmm.com/assets/mtit-icon-512.png">
+<link rel="manifest" href="../manifest.webmanifest"><link rel="icon" href="../assets/mtit-icon.svg" type="image/svg+xml"><link rel="icon" href="../assets/mtit-icon-192.png" sizes="192x192" type="image/png"><link rel="apple-touch-icon" href="../assets/mtit-icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@500;600;700&family=Roboto+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/public-pages.css">
+<script src="../assets/consent.js"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://labor-market.mtit-barmm.com/public/terms-of-service#webpage", "url": "https://labor-market.mtit-barmm.com/public/terms-of-service", "name": "Terms of Service | BARMM Labour Market Readiness – MTIT", "description": "Terms of Service for the BARMM Labour Market Readiness platform by MTIT–BOI: acceptable use, data interpretation safeguards, attribution and liability.", "inLanguage": "en-PH", "dateModified": "2026-11-23", "isPartOf": {"@type": "WebSite", "@id": "https://labor-market.mtit-barmm.com/#website", "name": "BARMM Labour Market Readiness", "url": "https://labor-market.mtit-barmm.com/"}, "publisher": {"@id": "https://labor-market.mtit-barmm.com/#org"}}, {"@type": "GovernmentOrganization", "@id": "https://labor-market.mtit-barmm.com/#org", "name": "Ministry of Trade, Investments and Tourism (MTIT) – BARMM", "url": "https://mtit.bangsamoro.gov.ph", "logo": "https://labor-market.mtit-barmm.com/assets/mtit-icon-512.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Dashboard", "item": "https://labor-market.mtit-barmm.com/"}, {"@type": "ListItem", "position": 2, "name": "Terms of Service", "item": "https://labor-market.mtit-barmm.com/public/terms-of-service"}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<aside class="sidebar" id="sidebar" aria-label="Side panel">
+ <a class="brand" href="../index.html"><span class="brand-mark"><img src="../assets/MTIT-logo.webp" alt="Official Ministry of Trade, Investments and Tourism (MTIT) logo" width="46" height="46"></span><span><span class="brand-name">BARMM LABOUR<br>MARKET READINESS</span><small>Workforce intelligence platform</small></span></a>
+ <div class="nav-label">Workspace</div><nav class="nav" aria-label="Workspace">
+ <a href="../index.html#overview"><span aria-hidden="true">◫</span>Overview</a>
+ <a href="../index.html#labour"><span aria-hidden="true">▥</span>Labour Market</a>
+ <a href="../index.html#sectors"><span aria-hidden="true">◈</span>Sector &amp; Investment</a>
+ <a href="../index.html#provincial"><span aria-hidden="true">⌖</span>Provincial Profile</a>
+ <a href="../index.html#tvet"><span aria-hidden="true">▤</span>TVET &amp; Skills</a>
+ <a href="../index.html#sipp"><span aria-hidden="true">⬡</span>SIPP Workforce Map</a>
+ </nav>
+ <div class="nav-label">Data &amp; Administration</div><nav class="nav" aria-label="Data and administration">
+ <a href="../index.html#datasets"><span aria-hidden="true">▦</span>Data Explorer</a>
+ <a href="../index.html#projects"><span aria-hidden="true">＋</span>Project Register</a>
+ <a href="../index.html#settings"><span aria-hidden="true">⚙</span>Data &amp; Sources</a>
+ </nav>
+ <div class="nav-label">Support &amp; Policies</div><nav class="nav" aria-label="Support and policies">
+ <a href="contact.html"><span aria-hidden="true">✉</span>Contact Us</a>
+ <div class="nav-dropdown open">
+  <button class="nav-trigger" type="button" aria-expanded="true" aria-controls="policyMenu"><span aria-hidden="true">§</span>Policies<span class="caret" aria-hidden="true">▾</span></button>
+  <div class="nav-sub" id="policyMenu">
+   <a href="terms-of-service.html" class="active" aria-current="page">Terms of Service</a>
+   <a href="privacy-policy.html">Privacy Policy</a>
+   <a href="cookie-policy.html">Cookie Policy &amp; Settings</a>
+  </div>
+ </div>
+ </nav>
+ <div class="sidebar-foot">MTIT – Bureau of Investments<br>BARMM · Phase II Policy Support<br><span style="opacity:.7">© 2026 · </span><button type="button" data-cookie-settings>Cookie settings</button></div>
+</aside>
+<div class="main">
+ <header class="topbar"><div style="display:flex;align-items:center;gap:14px"><button class="icon-btn menu-btn" id="menuBtn" aria-controls="sidebar" aria-expanded="false" aria-label="Open side panel">☰</button><nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="../index.html">Dashboard</a></li><li aria-current="page">Terms of Service</li></ol></nav></div><div class="top-actions"><a class="btn primary" href="../index.html#overview">◫ <span>Open dashboard</span></a></div></header>
+ <main class="content" id="main">
+  <div class="page-head"><div><div class="eyebrow">Policies · Legal</div><h1 class="page-title">Terms of Service</h1><div class="page-sub">The rules for using the BARMM Labour Market Readiness platform, including how to interpret and cite its labour market evidence responsibly.</div><div class="meta"><span class="pill gold">Last updated 23 November 2026</span><span class="pill">Version 2.0</span><span class="pill">Philippine law</span></div></div></div>
+  
+  <div class="doc-layout">
+   <nav class="card toc" aria-label="On this page"><h2 class="section-title">On this page</h2><ol><li><a href="#acceptance">1. Acceptance of these terms</a></li><li><a href="#purpose">2. Purpose of the Platform</a></li><li><a href="#data">3. Data sources and interpretation</a></li><li><a href="#use">4. Acceptable use</a></li><li><a href="#register">5. Project Register and locally stored records</a></li><li><a href="#ip">6. Intellectual property and attribution</a></li><li><a href="#availability">7. Availability and changes</a></li><li><a href="#liability">8. Disclaimer and limitation of liability</a></li><li><a href="#links">9. Third-party links and services</a></li><li><a href="#law">10. Governing law</a></li><li><a href="#contact-terms">11. Contact</a></li></ol></nav>
+   <article class="card doc"><section id="acceptance" aria-labelledby="acceptance-h"><h2 id="acceptance-h">1. Acceptance of these terms</h2><p>These Terms of Service govern your use of the BARMM Labour Market Readiness platform at <a href="../index.html">labor-market.mtit-barmm.com</a> (the “Platform”), operated by the Bureau of Investments of the Ministry of Trade, Investments and Tourism (“MTIT–BOI”, “we”, “us”) of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM). By accessing or using the Platform, you agree to these Terms, our <a href="privacy-policy.html">Privacy Policy</a> and our <a href="cookie-policy.html">Cookie Policy</a>. If you do not agree, please do not use the Platform.</p></section><section id="purpose" aria-labelledby="purpose-h"><h2 id="purpose-h">2. Purpose of the Platform</h2><p>The Platform is a public-interest workforce intelligence tool. It presents labour force indicators, employment structure, sector and investment signals, provincial profiles, TVET outcomes and an indicative 2026 Strategic Investment Priority Plan (SIPP) Workforce Map to support evidence-based policy, programme design and investment-responsive skills planning in BARMM.</p><p>The Platform is provided for information and analysis. It is not an official statistical release, an investment approval system, a job-matching service or a licensing or permit portal.</p></section><section id="data" aria-labelledby="data-h"><h2 id="data-h">3. Data sources and interpretation</h2><p>Figures are drawn from a versioned snapshot of the BARMM Labour Market Statistical Workbook (SIPP-Aligned), compiled from Philippine Statistics Authority (PSA), TESDA, ILO and MTIT–BOI sources listed under <a href="../index.html#settings">Data &amp; Sources</a>. When using the Platform you agree to observe these analytical safeguards:</p><ul>
+<li><b>Official statistics prevail.</b> Where a figure differs from the latest PSA release, the PSA release is authoritative.</li>
+<li><b>SIPP is not demand.</b> SIPP eligibility does not prove the existence of a BARMM project, investment approval, financing, jobs or a skills shortage. SIPP Workforce Map pathways are indicative and must be validated with project and employer evidence.</li>
+<li><b>Leads are not investments.</b> Investment-lead shares are early signals of market interest, not approved capital expenditure or expected employment.</li>
+<li><b>Blanks are not zero.</b> Missing source values are shown as blank or “—” and must not be read as zero.</li>
+<li><b>Different reference years.</b> GRDP (2024) and employment (2025) shares have different reference years and denominators; comparisons are descriptive, not productivity ratios.</li>
+<li><b>TVET denominators.</b> TVET graduate employment rates refer to graduates in the labour force for the stated cohort, not to all graduates or trainees.</li></ul></section><section id="use" aria-labelledby="use-h"><h2 id="use-h">4. Acceptable use</h2><p>You may view, download, export and share content from the Platform for lawful, non-misleading purposes. You agree not to:</p><ul>
+<li>misrepresent Platform figures, remove source attributions or present indicative analysis as official statistics or government commitments;</li>
+<li>attempt to disrupt, overload, probe or gain unauthorised access to the Platform or its hosting infrastructure, contrary to Republic Act No. 10175 (Cybercrime Prevention Act of 2012);</li>
+<li>use automated tools to scrape the Platform in a way that degrades service for other users;</li>
+<li>submit unlawful, defamatory or malicious content through the contact form, or include another person’s personal data without a lawful basis.</li></ul></section><section id="register" aria-labelledby="register-h"><h2 id="register-h">5. Project Register and locally stored records</h2><p>The Investment &amp; Workforce Project Register lets you record project evidence in your own browser (IndexedDB, with a localStorage fallback). These records stay on your device, are not sent to MTIT–BOI, and are not synchronised across devices or users. You are responsible for the accuracy of what you enter, for exporting any records you wish to keep, and for not recording personal or confidential information you are not authorised to hold. Clearing browser data or using “Reset local project records” permanently deletes them.</p></section><section id="ip" aria-labelledby="ip-h"><h2 id="ip-h">6. Intellectual property and attribution</h2><p>The Platform design, text, code and compiled analysis are owned by or licensed to MTIT–BOI, BARMM, and are protected under Republic Act No. 8293 (Intellectual Property Code of the Philippines). Third-party statistics remain subject to their publishers’ terms. The MTIT seal and BARMM marks may not be used to imply endorsement.</p><p>When citing the Platform, please attribute both the Platform and the original source, for example: <i>MTIT–BOI BARMM (2026), BARMM Labour Market Readiness platform, based on PSA (2026) 2025 Labour Force Survey.</i></p></section><section id="availability" aria-labelledby="availability-h"><h2 id="availability-h">7. Availability and changes</h2><p>We aim to keep the Platform available and up to date but do not guarantee uninterrupted access. The Platform works offline once installed as an app; cached content may be older than the live site. We may update datasets, features or these Terms at any time. Material changes will be reflected in the “Last updated” date above.</p></section><section id="liability" aria-labelledby="liability-h"><h2 id="liability-h">8. Disclaimer and limitation of liability</h2><p>The Platform is provided “as is” and “as available”. While we take care to reproduce sources accurately, MTIT–BOI makes no warranty that the content is complete, current or fit for a particular purpose. To the extent permitted by Philippine law, MTIT–BOI is not liable for any loss arising from reliance on the Platform. Investment, employment and policy decisions should be supported by independent verification and current official data.</p></section><section id="links" aria-labelledby="links-h"><h2 id="links-h">9. Third-party links and services</h2><p>The Platform links to external sources such as the PSA, TESDA and ILO, and uses third-party services for hosting, fonts and charting described in the <a href="privacy-policy.html#processors">Privacy Policy</a>. We are not responsible for the content or practices of external sites.</p></section><section id="law" aria-labelledby="law-h"><h2 id="law-h">10. Governing law</h2><p>These Terms are governed by the laws of the Republic of the Philippines, including Republic Act No. 11054 (Bangsamoro Organic Law) and Republic Act No. 8792 (Electronic Commerce Act of 2000). Disputes shall be subject to the competent courts of Cotabato City, without prejudice to applicable dispute-resolution mechanisms.</p></section><section id="contact-terms" aria-labelledby="contact-terms-h"><h2 id="contact-terms-h">11. Contact</h2><p>Questions about these Terms can be sent through our <a href="contact.html">contact page</a> or to <a href="mailto:boi@bangsamoro.gov.ph">boi@bangsamoro.gov.ph</a>.</p></section></article>
+  </div>
+ </main>
+ <footer class="site-foot"><span>© 2026 Ministry of Trade, Investments and Tourism – Bureau of Investments, BARMM</span><nav aria-label="Footer"><a href="../index.html">Dashboard</a><a href="contact.html">Contact Us</a><a href="terms-of-service.html">Terms of Service</a><a href="privacy-policy.html">Privacy Policy</a><a href="cookie-policy.html">Cookie Policy</a><button type="button" data-cookie-settings>Cookie settings</button></nav></footer>
 </div>
-<div class="meta-item">
-<div class="meta-label">Last Updated</div>
-<div class="meta-value">July 1, 2026</div>
-</div>
-<div class="meta-item">
-<div class="meta-label">Version</div>
-<div class="meta-value">1.0</div>
-</div>
-<div class="meta-item">
-<div class="meta-label">Jurisdiction</div>
-<div class="meta-value">BARMM, Philippines</div>
-</div>
-</div>
-
-<!-- SECTION 1 -->
-<section class="policy-section" id="intro">
-<h2><span class="section-num">1</span> Introduction &amp; Acceptance of Terms</h2>
-<p>Welcome to the <strong>Bangsamoro Investment Roadmap Development (BIRD) 2026–2035 Strategic Validation Survey</strong> platform, operated by the <strong>Bureau of Investments – Ministry of Trade, Investments and Tourism (BOI-MTIT)</strong> of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM).</p>
-<p>By accessing, browsing, or submitting responses to this survey platform, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use this platform.</p>
-
-<div class="highlight-box">
-<p><strong>Our Commitment:</strong> These Terms are designed to ensure a secure, respectful, and productive validation process that protects the integrity of the BIRD 2026–2035 strategic planning framework.</p>
-</div>
-</section>
-
-<!-- SECTION 2 -->
-<section class="policy-section" id="eligibility">
-<h2><span class="section-num">2</span> Eligibility</h2>
-<p>By using this platform, you represent and warrant that:</p>
-<ul>
-<li>You are at least <strong>18 years of age</strong> or the age of majority in your jurisdiction.</li>
-<li>You are a qualified stakeholder, policymaker, investor, development professional, or community representative with relevant knowledge of the Bangsamoro Economic and Investment Ecosystem (BEIE).</li>
-<li>You have the legal capacity and authority to agree to these Terms and to grant the licenses specified herein.</li>
-</ul>
-</section>
-
-<!-- SECTION 3 -->
-<section class="policy-section" id="acceptable-use">
-<h2><span class="section-num">3</span> Acceptable Use &amp; Conduct</h2>
-<p>You agree to use the survey platform solely for its intended purpose of providing constructive, good-faith feedback on the BIRD 2026–2035 roadmap. You agree <strong>not</strong> to:</p>
-<ul>
-<li>Submit false, misleading, fraudulent, or malicious data.</li>
-<li>Use automated scripts, bots, or scraping tools to interact with the survey platform.</li>
-<li>Attempt to gain unauthorized access to the survey backend, GitHub repository, or any associated systems.</li>
-<li>Submit content that is defamatory, abusive, discriminatory, or violates any applicable laws of the Philippines or BARMM.</li>
-<li>Disrupt or interfere with the security, integrity, or performance of the platform.</li>
-</ul>
-<p>BOI-MTIT reserves the right to disqualify or block any submission or user that violates these guidelines, at our sole discretion.</p>
-</section>
-
-<!-- SECTION 4 -->
-<section class="policy-section" id="intellectual-property">
-<h2><span class="section-num">4</span> Intellectual Property Rights</h2>
-<h3>4.1 Platform &amp; Framework Ownership</h3>
-<p>All content, design, survey architecture, questionnaires, Strat Planner Pro mathematical models, and the underlying BIRD 2026–2035 strategic framework are the exclusive intellectual property of <strong>BOI-MTIT, BARMM</strong>, or its licensed partners. Nothing in these Terms grants you any right, title, or interest in these materials.</p>
-
-<h3>4.2 Permitted Use</h3>
-<p>You are granted a limited, non-exclusive, non-transferable, and revocable license to access and use the survey platform solely for the purpose of participating in the validation process.</p>
-</section>
-
-<!-- SECTION 5 -->
-<section class="policy-section" id="submissions">
-<h2><span class="section-num">5</span> User Submissions &amp; Licensing</h2>
-<p>When you submit responses, feedback, or ideas through the survey platform ("User Submissions"), you retain ownership of your original ideas. However, by submitting your responses, you grant BOI-MTIT a <strong>worldwide, perpetual, irrevocable, non-exclusive, and royalty-free license</strong> to:</p>
-<ul>
-<li>Use, reproduce, modify, adapt, and aggregate your submissions for the development, refinement, and publication of the BIRD 2026–2035 Investment Roadmap.</li>
-<li>Anonymize and incorporate your feedback into public reports, executive summaries, and strategic planning documents.</li>
-<li>Utilize the quantitative and qualitative data to train or calibrate the Strat Planner Pro modeling framework.</li>
-</ul>
-<div class="highlight-box">
-<p><strong>Anonymity Guarantee:</strong> As detailed in our <a href="privacy-policy.html" style="color:var(--gold-light);">Privacy Policy</a>, all publicly reported data will be strictly aggregated and anonymized. No individual submission will be attributed to you or your organization without explicit, separate written consent.</p>
-</div>
-</section>
-
-<!-- SECTION 6 -->
-<section class="policy-section" id="disclaimers">
-<h2><span class="section-num">6</span> Disclaimers</h2>
-<p>The survey platform and the BIRD 2026–2035 framework are provided on an <strong>"as is" and "as available" basis</strong>. To the maximum extent permitted by law, BOI-MTIT disclaims all warranties, whether express or implied, including but not limited to:</p>
-<ul>
-<li><strong>No Guarantee of Adoption:</strong> Participation in the survey does not guarantee that your specific feedback, suggestions, or ratings will be adopted into the final Investment Roadmap or government policy.</li>
-<li><strong>Platform Availability:</strong> We do not warrant that the platform will be uninterrupted, secure, or entirely free of errors or bugs.</li>
-<li><strong>Forward-Looking Statements:</strong> The BIRD 2026–2035 document is a strategic planning instrument. Projections, models, and strategic options presented are for validation purposes and do not constitute binding government commitments or financial guarantees.</li>
-</ul>
-</section>
-
-<!-- SECTION 7 -->
-<section class="policy-section" id="liability">
-<h2><span class="section-num">7</span> Limitation of Liability</h2>
-<p>To the fullest extent permitted by the laws of the Republic of the Philippines and BARMM, <strong>BOI-MTIT, its officers, employees, and partners shall not be liable</strong> for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or goodwill, arising out of or in connection with:</p>
-<ul>
-<li>Your use or inability to use the survey platform.</li>
-<li>Any errors, omissions, or inaccuracies in the survey content or roadmap framework.</li>
-<li>Unauthorized access to or alteration of your transmissions or data.</li>
-</ul>
-</section>
-
-<!-- SECTION 8 -->
-<section class="policy-section" id="modifications">
-<h2><span class="section-num">8</span> Modifications to These Terms</h2>
-<p>We reserve the right to modify, update, or replace these Terms of Service at any time at our sole discretion. Any material changes will be reflected by an updated "Last Updated" date at the top of this page. Your continued use of the survey platform after any such changes constitutes your acceptance of the new Terms.</p>
-</section>
-
-<!-- SECTION 9 -->
-<section class="policy-section" id="governing-law">
-<h2><span class="section-num">9</span> Governing Law &amp; Jurisdiction</h2>
-<p>These Terms shall be governed by and construed in accordance with the laws of the <strong>Republic of the Philippines</strong> and the <strong>Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)</strong>, without regard to its conflict of law provisions. Any disputes arising from these Terms or your use of the platform shall be subject to the exclusive jurisdiction of the competent courts within BARMM.</p>
-</section>
-
-<!-- SECTION 10 -->
-<section class="policy-section" id="contact">
-<h2><span class="section-num">10</span> Contact Information</h2>
-<p>If you have any questions, concerns, or require clarification regarding these Terms of Service, please contact us:</p>
-
-<div class="contact-box">
-<h4>Bureau of Investments – MTIT, BARMM</h4>
-<p><strong>Address:</strong> Bangsamoro Government Complex, Cotabato City, BARMM, Philippines</p>
-<p><strong>Email:</strong> <a href="mailto:boi@bangsamoro.gov.ph">boi@bangsamoro.gov.ph</a></p>
-<p><strong>Telephone:</strong> (064) 557 2819</p>
-<p><strong>Mobile:</strong> 0917.834.333</p>
-</div>
-
-<a href="/" class="back-top">← Back to BIRD</a>
-</section>
-
-</div>
-
-</main>
-
-
-
-<script>
-window.addEventListener('scroll', () => {
-document.getElementById('siteNav').classList.toggle('scrolled', window.scrollY > 40);
-}, { passive: true });
-</script>
-
-
-
-
-<!-- bird-chrome:footer --><footer class="bc-scope bc-footer" role="contentinfo"><div class="bc-fin"><div class="bc-fgrid"><div class="bc-fbrand"><a class="bc-brand" href="https://bird-boi.mtit-barmm.com/" aria-label="BIRD 2026–2035 Investment Roadmap — home"><img class="bc-seal" src="assets/MTIT-logo-circle.webp" width="38" height="38" alt="" decoding="async" onerror="this.onerror=null;this.src='assets/MTIT-logo-circle.png'"><span class="bc-word"><strong>BIRD <span>2026–2035</span></strong><small>MTIT · BARMM</small></span></a><p>Bangsamoro Investment Roadmap Development 2026–2035. Prepared for the Bureau of Investments, Ministry of Trade, Investments and Tourism, BARMM.</p><a class="bc-cta" href="https://bird-boi.mtit-barmm.com/platform">Open the Platform</a></div><div class="bc-fcol"><h2>Platform</h2><ul><li><a href="https://bird-boi.mtit-barmm.com/platform">BIRD Strategic Planning Platform</a></li><li><a href="survey-dashboard.html">Validation survey results</a></li><li><a href="user-manual.html">Platform user manual</a></li><li><a href="resources.html">Resource library</a></li><li><a href="contact.html">Contact us</a></li></ul></div><div class="bc-fcol"><h2>The Report</h2><ul><li><a href="report/executive-summary.html">Executive Summary</a></li><li><a href="report/Chapter1.html">Read the report</a></li><li><a href="report/integrated-report.html">Integrated report</a></li><li><a href="report/strategic-dashboard.html">Strategic dashboard</a></li><li><a href="report/Indexes.html">Subject index</a></li></ul></div><div class="bc-fcol"><h2>Strategy</h2><ul><li><a href="roadmap.html">Investment roadmap</a></li><li><a href="options.html">Strategy formulation</a></li><li><a href="action-plan.html">One-year action plan 2026</a></li><li><a href="strategy-map.html">Strategy map</a></li><li><a href="dashboard.html">MEL dashboard</a></li><li><a href="kpi.html">KPIs and metrics</a></li></ul></div><div class="bc-fcol"><h2>Provinces</h2><ul><li><a href="basilan-outlook.html">Basilan</a></li><li><a href="lanao-delsur-outlook.html">Lanao del Sur</a></li><li><a href="lds-poa.html">Lanao del Sur · programme of activities</a></li><li><a href="maguindanao-delnorte-outlook.html">Maguindanao del Norte</a></li><li><a href="maguindanao-delsur-outlook.html">Maguindanao del Sur</a></li><li><a href="sga-outlook.html">Special Geographic Area</a></li><li><a href="tawi-tawi-outlook.html">Tawi-Tawi</a></li></ul></div></div><div class="bc-fbottom"><p>© 2026 Bangsamoro Autonomous Region in Muslim Mindanao · MTIT. Developed by <a href="https://asilvainnovations.com" target="_blank" rel="noopener noreferrer">ASilva Innovations</a>.</p><div class="bc-flegal"><a href="privacy-policy.html">Privacy</a><a href="cookie-policy.html">Cookies</a><a href="terms-of-service.html">Terms</a></div></div></div></footer><!-- /bird-chrome:footer --></body>
+<script src="../assets/public-pages.js" defer></script>
+</body>
 </html>
